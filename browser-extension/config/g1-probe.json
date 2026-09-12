@@ -1,0 +1,14 @@
+{
+  "$schema": "./schema.json",
+  "profile": "g1-probe",
+  "profileVersion": 2,
+  "protocolVersion": 1,
+  "printerId": "fin3000-incoming-invoice",
+  "printerName": "An Fin3000 senden",
+  "printerDescription": "Fin3000 G1 Canary",
+  "minimumChromeVersion": "145",
+  "callbackDelaysSeconds": [2, 30, 90, 300],
+  "defaultCallbackDelaySeconds": 2,
+  "maxFileBytes": 20971520,
+  "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1W7bL7x/aEQsoci7aziBiVWLZqX+05huihKJobSdt7HndKVPOYYF6S2kCj1+HRXhFe9DK2+DKQ5TcqWObl5Y/2IFOoSrGkVWNu0Q/HsP/2Lf+uiOAp8qP+jOniHrfos/ZmjA9ByvD1xfYbOpuuvATbEFk8pTEo81CPWoIx5XchesIp45DVkZppZbJgkEzNitMJldsV/Qa4dhjHmEicOIh+H+/v427XXEbwG6ZcKeh3J9rC+4RdFXoRQ/hJVSNeK+0UL91zRz7GmG31VkoUNdrPHGr1KiK8wg2rCtdsYtbgUCbhBvUzP3/WTEOfX3Ka6YXyyn1a/Ps9VaYS62XpUqiQIDAQAB"
+}

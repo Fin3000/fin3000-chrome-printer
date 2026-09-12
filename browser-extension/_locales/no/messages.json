@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Sender PDF-utskriftsvisningen som Chrome oppretter, sikkert til dokumentinnboksen i Fin3000."
+  },
+  "printerName": {
+    "message": "Send til Fin3000"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Koble til Fin3000 én gang"
+  },
+  "popupSubtitle": {
+    "message": "Chrome-utskriftsmål"
+  },
+  "accountLabel": {
+    "message": "Konto"
+  },
+  "notConnected": {
+    "message": "Ikke tilkoblet"
+  },
+  "connect": {
+    "message": "Koble til Fin3000"
+  },
+  "disconnect": {
+    "message": "Koble fra"
+  },
+  "openInbox": {
+    "message": "Åpne dokumentinnboksen"
+  },
+  "statusReady": {
+    "message": "Klar til å sende."
+  },
+  "statusConnecting": {
+    "message": "Åpner tilkoblingen til Fin3000 …"
+  },
+  "statusWorking": {
+    "message": "Vent litt …"
+  },
+  "statusConnectCancelled": {
+    "message": "Tilkoblingen ble avbrutt."
+  },
+  "statusActionFailed": {
+    "message": "Handlingen mislyktes. Prøv igjen."
+  },
+  "statusSending": {
+    "message": "Sender til Fin3000 …"
+  },
+  "statusAccepted": {
+    "message": "Dokumentet er trygt mottatt av Fin3000. Behandlingen pågår."
+  },
+  "statusChecking": {
+    "message": "Mottaket kontrolleres. Ikke send på nytt."
+  },
+  "statusNotSent": {
+    "message": "Dokumentet ble ikke sendt. Skriv ut på nytt."
+  },
+  "statusBusy": {
+    "message": "Fin3000 behandler allerede et dokument. Skriv ut på nytt om et øyeblikk."
+  },
+  "statusConnectFirst": {
+    "message": "Koble til Fin3000 én gang, og skriv deretter ut på nytt."
+  },
+  "statusInvalidPdf": {
+    "message": "Chrome leverte ikke en gyldig PDF-utskriftsvisning."
+  },
+  "statusTooLarge": {
+    "message": "Dokumentet er større enn 20 MiB og ble ikke sendt."
+  },
+  "printRepresentationHelp": {
+    "message": "Chrome overfører utskriftsvisningen. Bruk filopplasting eller Fin3000-e-post for innebygde e-fakturadata eller signaturer."
+  },
+  "privacyNote": {
+    "message": "Utvidelsen lagrer ikke portaladresser, informasjonskapsler eller PDF-data permanent."
+  }
+}

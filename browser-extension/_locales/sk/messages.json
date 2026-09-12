@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Bezpečne odošle tlačovú podobu PDF vytvorenú Chromom do prijatých dokumentov Fin3000."
+  },
+  "printerName": {
+    "message": "Odoslať do Fin3000"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Raz prepojiť s Fin3000"
+  },
+  "popupSubtitle": {
+    "message": "Cieľ tlače v Chrome"
+  },
+  "accountLabel": {
+    "message": "Účet"
+  },
+  "notConnected": {
+    "message": "Nepripojené"
+  },
+  "connect": {
+    "message": "Pripojiť k Fin3000"
+  },
+  "disconnect": {
+    "message": "Odpojiť"
+  },
+  "openInbox": {
+    "message": "Otvoriť prijaté dokumenty"
+  },
+  "statusReady": {
+    "message": "Pripravené na odoslanie."
+  },
+  "statusConnecting": {
+    "message": "Otvára sa pripojenie k Fin3000 …"
+  },
+  "statusWorking": {
+    "message": "Čakajte, prosím …"
+  },
+  "statusConnectCancelled": {
+    "message": "Pripojenie bolo zrušené."
+  },
+  "statusActionFailed": {
+    "message": "Akcia zlyhala. Skúste to znova."
+  },
+  "statusSending": {
+    "message": "Odosiela sa do Fin3000 …"
+  },
+  "statusAccepted": {
+    "message": "Dokument bol bezpečne prijatý vo Fin3000. Prebieha spracovanie."
+  },
+  "statusChecking": {
+    "message": "Prijatie sa overuje. Neodosielajte znova."
+  },
+  "statusNotSent": {
+    "message": "Dokument nebol odoslaný. Vytlačte ho znova."
+  },
+  "statusBusy": {
+    "message": "Fin3000 už spracúva dokument. Skúste tlač o chvíľu zopakovať."
+  },
+  "statusConnectFirst": {
+    "message": "Raz pripojte Fin3000 a potom tlač zopakujte."
+  },
+  "statusInvalidPdf": {
+    "message": "Chrome neposkytol platnú tlačovú podobu PDF."
+  },
+  "statusTooLarge": {
+    "message": "Dokument je väčší než 20 MiB a nebol odoslaný."
+  },
+  "printRepresentationHelp": {
+    "message": "Chrome prenáša tlačovú podobu. Pre vložené údaje e-faktúry alebo podpisy použite nahratie súboru či e-mail Fin3000."
+  },
+  "privacyNote": {
+    "message": "Rozšírenie trvalo neukladá adresy portálov, súbory cookie ani údaje PDF."
+  }
+}

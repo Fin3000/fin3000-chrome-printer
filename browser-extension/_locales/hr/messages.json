@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Sigurno šalje PDF prikaz za ispis koji izradi Chrome u Fin3000 ulazne dokumente."
+  },
+  "printerName": {
+    "message": "Pošalji u Fin3000"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Jednom povežite Fin3000"
+  },
+  "popupSubtitle": {
+    "message": "Chrome odredište ispisa"
+  },
+  "accountLabel": {
+    "message": "Račun"
+  },
+  "notConnected": {
+    "message": "Nije povezano"
+  },
+  "connect": {
+    "message": "Poveži s Fin3000"
+  },
+  "disconnect": {
+    "message": "Prekini vezu"
+  },
+  "openInbox": {
+    "message": "Otvori ulazne dokumente"
+  },
+  "statusReady": {
+    "message": "Spremno za slanje."
+  },
+  "statusConnecting": {
+    "message": "Otvara se veza s Fin3000 …"
+  },
+  "statusWorking": {
+    "message": "Pričekajte …"
+  },
+  "statusConnectCancelled": {
+    "message": "Povezivanje je otkazano."
+  },
+  "statusActionFailed": {
+    "message": "Radnja nije uspjela. Pokušajte ponovno."
+  },
+  "statusSending": {
+    "message": "Šalje se u Fin3000 …"
+  },
+  "statusAccepted": {
+    "message": "Fin3000 je sigurno zaprimio dokument. Obrada je u tijeku."
+  },
+  "statusChecking": {
+    "message": "Zaprimanje se provjerava. Nemojte ponovno slati."
+  },
+  "statusNotSent": {
+    "message": "Dokument nije poslan. Ponovno ispišite."
+  },
+  "statusBusy": {
+    "message": "Fin3000 već obrađuje dokument. Ponovno ispišite za trenutak."
+  },
+  "statusConnectFirst": {
+    "message": "Jednom povežite Fin3000, a zatim ponovno ispišite."
+  },
+  "statusInvalidPdf": {
+    "message": "Chrome nije isporučio valjan PDF prikaz za ispis."
+  },
+  "statusTooLarge": {
+    "message": "Dokument je veći od 20 MiB i nije poslan."
+  },
+  "printRepresentationHelp": {
+    "message": "Chrome prenosi prikaz za ispis. Za ugrađene podatke e-računa ili potpise upotrijebite prijenos datoteke ili Fin3000 e-poštu."
+  },
+  "privacyNote": {
+    "message": "Proširenje trajno ne pohranjuje adrese portala, kolačiće ni PDF podatke."
+  }
+}

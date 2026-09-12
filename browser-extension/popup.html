@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fin3000</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="icon.png" alt="" width="32" height="32" />
+        <div>
+          <h1 data-i18n="extensionName">Fin3000</h1>
+          <p data-i18n="popupSubtitle">Chrome-Druckziel</p>
+        </div>
+      </header>
+
+      <section class="account" aria-labelledby="account-label">
+        <span id="account-label" class="label" data-i18n="accountLabel">Konto</span>
+        <bdi id="account-name" dir="auto"></bdi>
+      </section>
+
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+
+      <div class="actions">
+        <button id="connect" type="button" data-i18n="connect">Mit Fin3000 verbinden</button>
+        <button id="open-inbox" type="button" data-i18n="openInbox">Belegeingang öffnen</button>
+        <button id="disconnect" class="secondary" type="button" data-i18n="disconnect">
+          Verbindung trennen
+        </button>
+      </div>
+
+      <p class="hint" data-i18n="printRepresentationHelp"></p>
+      <p class="privacy" data-i18n="privacyNote"></p>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

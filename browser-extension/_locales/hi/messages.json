@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Chrome द्वारा बनाए गए प्रिंट योग्य PDF रूप को सुरक्षित रूप से Fin3000 दस्तावेज़ इनबॉक्स में भेजता है।"
+  },
+  "printerName": {
+    "message": "Fin3000 पर भेजें"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Fin3000 से एक बार कनेक्ट करें"
+  },
+  "popupSubtitle": {
+    "message": "Chrome प्रिंट गंतव्य"
+  },
+  "accountLabel": {
+    "message": "खाता"
+  },
+  "notConnected": {
+    "message": "कनेक्ट नहीं है"
+  },
+  "connect": {
+    "message": "Fin3000 से कनेक्ट करें"
+  },
+  "disconnect": {
+    "message": "कनेक्शन हटाएँ"
+  },
+  "openInbox": {
+    "message": "दस्तावेज़ इनबॉक्स खोलें"
+  },
+  "statusReady": {
+    "message": "भेजने के लिए तैयार।"
+  },
+  "statusConnecting": {
+    "message": "Fin3000 कनेक्शन खोला जा रहा है …"
+  },
+  "statusWorking": {
+    "message": "कृपया प्रतीक्षा करें …"
+  },
+  "statusConnectCancelled": {
+    "message": "कनेक्शन रद्द कर दिया गया।"
+  },
+  "statusActionFailed": {
+    "message": "कार्रवाई विफल रही। फिर से कोशिश करें।"
+  },
+  "statusSending": {
+    "message": "Fin3000 पर भेजा जा रहा है …"
+  },
+  "statusAccepted": {
+    "message": "Fin3000 को दस्तावेज़ सुरक्षित रूप से मिल गया है। प्रसंस्करण जारी है।"
+  },
+  "statusChecking": {
+    "message": "प्राप्ति की जाँच हो रही है। कृपया दोबारा न भेजें।"
+  },
+  "statusNotSent": {
+    "message": "दस्तावेज़ नहीं भेजा गया। कृपया फिर से प्रिंट करें।"
+  },
+  "statusBusy": {
+    "message": "Fin3000 पहले से एक दस्तावेज़ संसाधित कर रहा है। थोड़ी देर बाद फिर प्रिंट करें।"
+  },
+  "statusConnectFirst": {
+    "message": "Fin3000 को एक बार कनेक्ट करें, फिर दोबारा प्रिंट करें।"
+  },
+  "statusInvalidPdf": {
+    "message": "Chrome ने मान्य PDF प्रिंट रूप नहीं दिया।"
+  },
+  "statusTooLarge": {
+    "message": "दस्तावेज़ 20 MiB से बड़ा है और नहीं भेजा गया।"
+  },
+  "printRepresentationHelp": {
+    "message": "Chrome प्रिंट रूप भेजता है। एम्बेड किए गए ई-इनवॉइस डेटा या हस्ताक्षर के लिए फ़ाइल अपलोड या Fin3000 ईमेल का उपयोग करें।"
+  },
+  "privacyNote": {
+    "message": "एक्सटेंशन में पोर्टल पते, कुकी या PDF डेटा स्थायी रूप से संग्रहीत नहीं होते।"
+  }
+}
