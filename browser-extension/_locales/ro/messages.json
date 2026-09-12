@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Trimite în siguranță reprezentarea PDF pentru imprimare creată de Chrome în căsuța de documente Fin3000."
+  },
+  "printerName": {
+    "message": "Trimite la Fin3000"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Conectează-te o dată la Fin3000"
+  },
+  "popupSubtitle": {
+    "message": "Destinație de imprimare Chrome"
+  },
+  "accountLabel": {
+    "message": "Cont"
+  },
+  "notConnected": {
+    "message": "Neconectat"
+  },
+  "connect": {
+    "message": "Conectare la Fin3000"
+  },
+  "disconnect": {
+    "message": "Deconectare"
+  },
+  "openInbox": {
+    "message": "Deschide căsuța de documente"
+  },
+  "statusReady": {
+    "message": "Pregătit pentru trimitere."
+  },
+  "statusConnecting": {
+    "message": "Se deschide conexiunea Fin3000 …"
+  },
+  "statusWorking": {
+    "message": "Așteptați …"
+  },
+  "statusConnectCancelled": {
+    "message": "Conexiunea a fost anulată."
+  },
+  "statusActionFailed": {
+    "message": "Acțiunea a eșuat. Încercați din nou."
+  },
+  "statusSending": {
+    "message": "Se trimite la Fin3000 …"
+  },
+  "statusAccepted": {
+    "message": "Document primit în siguranță de Fin3000. Procesarea este în curs."
+  },
+  "statusChecking": {
+    "message": "Primirea este verificată. Nu trimiteți din nou."
+  },
+  "statusNotSent": {
+    "message": "Documentul nu a fost trimis. Imprimați din nou."
+  },
+  "statusBusy": {
+    "message": "Fin3000 procesează deja un document. Imprimați din nou în scurt timp."
+  },
+  "statusConnectFirst": {
+    "message": "Conectați Fin3000 o dată, apoi imprimați din nou."
+  },
+  "statusInvalidPdf": {
+    "message": "Chrome nu a furnizat o reprezentare PDF validă pentru imprimare."
+  },
+  "statusTooLarge": {
+    "message": "Documentul depășește 20 MiB și nu a fost trimis."
+  },
+  "printRepresentationHelp": {
+    "message": "Chrome transferă reprezentarea pentru imprimare. Pentru date de factură electronică sau semnături încorporate, folosiți încărcarea fișierului ori e-mailul Fin3000."
+  },
+  "privacyNote": {
+    "message": "Extensia nu stochează permanent adrese de portal, cookie-uri sau date PDF."
+  }
+}

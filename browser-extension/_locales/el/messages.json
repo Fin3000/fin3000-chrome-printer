@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Στέλνει με ασφάλεια την εκτυπώσιμη μορφή PDF που δημιουργεί το Chrome στα εισερχόμενα εγγράφων του Fin3000."
+  },
+  "printerName": {
+    "message": "Αποστολή στο Fin3000"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Συνδεθείτε μία φορά με το Fin3000"
+  },
+  "popupSubtitle": {
+    "message": "Προορισμός εκτύπωσης Chrome"
+  },
+  "accountLabel": {
+    "message": "Λογαριασμός"
+  },
+  "notConnected": {
+    "message": "Δεν υπάρχει σύνδεση"
+  },
+  "connect": {
+    "message": "Σύνδεση με το Fin3000"
+  },
+  "disconnect": {
+    "message": "Αποσύνδεση"
+  },
+  "openInbox": {
+    "message": "Άνοιγμα εισερχόμενων εγγράφων"
+  },
+  "statusReady": {
+    "message": "Έτοιμο για αποστολή."
+  },
+  "statusConnecting": {
+    "message": "Ανοίγει η σύνδεση με το Fin3000 …"
+  },
+  "statusWorking": {
+    "message": "Περιμένετε …"
+  },
+  "statusConnectCancelled": {
+    "message": "Η σύνδεση ακυρώθηκε."
+  },
+  "statusActionFailed": {
+    "message": "Η ενέργεια απέτυχε. Δοκιμάστε ξανά."
+  },
+  "statusSending": {
+    "message": "Αποστολή στο Fin3000 …"
+  },
+  "statusAccepted": {
+    "message": "Το έγγραφο παραλήφθηκε με ασφάλεια από το Fin3000. Η επεξεργασία συνεχίζεται."
+  },
+  "statusChecking": {
+    "message": "Η παραλαβή ελέγχεται. Μην το στείλετε ξανά."
+  },
+  "statusNotSent": {
+    "message": "Το έγγραφο δεν στάλθηκε. Εκτυπώστε ξανά."
+  },
+  "statusBusy": {
+    "message": "Το Fin3000 επεξεργάζεται ήδη ένα έγγραφο. Εκτυπώστε ξανά σε λίγο."
+  },
+  "statusConnectFirst": {
+    "message": "Συνδέστε το Fin3000 μία φορά και μετά εκτυπώστε ξανά."
+  },
+  "statusInvalidPdf": {
+    "message": "Το Chrome δεν παρείχε έγκυρη εκτυπώσιμη μορφή PDF."
+  },
+  "statusTooLarge": {
+    "message": "Το έγγραφο είναι μεγαλύτερο από 20 MiB και δεν στάλθηκε."
+  },
+  "printRepresentationHelp": {
+    "message": "Το Chrome μεταφέρει την εκτυπώσιμη μορφή. Για ενσωματωμένα δεδομένα ηλεκτρονικού τιμολογίου ή υπογραφές χρησιμοποιήστε μεταφόρτωση αρχείου ή email Fin3000."
+  },
+  "privacyNote": {
+    "message": "Δεν αποθηκεύονται μόνιμα στην επέκταση διευθύνσεις πυλών, cookie ή δεδομένα PDF."
+  }
+}

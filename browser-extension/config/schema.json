@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fin3000.com/browser-extension/profile.schema.json",
+  "title": "Fin3000 printer provider probe profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "profile",
+    "profileVersion",
+    "protocolVersion",
+    "printerId",
+    "printerName",
+    "printerDescription",
+    "minimumChromeVersion",
+    "callbackDelaysSeconds",
+    "defaultCallbackDelaySeconds",
+    "maxFileBytes",
+    "publicKey"
+  ],
+  "properties": {
+    "profile": { "enum": ["g1-probe"] },
+    "profileVersion": { "type": "integer", "const": 2 },
+    "protocolVersion": { "type": "integer", "const": 1 },
+    "printerId": { "type": "string", "const": "fin3000-incoming-invoice" },
+    "printerName": { "type": "string", "const": "An Fin3000 senden" },
+    "printerDescription": { "type": "string", "const": "Fin3000 G1 Canary" },
+    "minimumChromeVersion": { "type": "string", "pattern": "^[0-9]+$" },
+    "callbackDelaysSeconds": { "type": "array", "const": [2, 30, 90, 300] },
+    "defaultCallbackDelaySeconds": { "type": "integer", "enum": [2, 30, 90, 300] },
+    "maxFileBytes": { "type": "integer", "const": 20971520 },
+    "publicKey": { "type": "string", "minLength": 100 }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Biztonságosan elküldi a Chrome által létrehozott nyomtatható PDF-változatot a Fin3000 dokumentum-beérkező mappájába."
+  },
+  "printerName": {
+    "message": "Küldés a Fin3000-be"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Egyszeri csatlakozás a Fin3000-hez"
+  },
+  "popupSubtitle": {
+    "message": "Chrome nyomtatási cél"
+  },
+  "accountLabel": {
+    "message": "Fiók"
+  },
+  "notConnected": {
+    "message": "Nincs csatlakoztatva"
+  },
+  "connect": {
+    "message": "Csatlakozás a Fin3000-hez"
+  },
+  "disconnect": {
+    "message": "Kapcsolat bontása"
+  },
+  "openInbox": {
+    "message": "Dokumentumok megnyitása"
+  },
+  "statusReady": {
+    "message": "Küldésre kész."
+  },
+  "statusConnecting": {
+    "message": "A Fin3000-kapcsolat megnyitása …"
+  },
+  "statusWorking": {
+    "message": "Kérjük, várjon …"
+  },
+  "statusConnectCancelled": {
+    "message": "A csatlakozást megszakították."
+  },
+  "statusActionFailed": {
+    "message": "A művelet sikertelen. Próbálja újra."
+  },
+  "statusSending": {
+    "message": "Küldés a Fin3000-be …"
+  },
+  "statusAccepted": {
+    "message": "A Fin3000 biztonságosan átvette a dokumentumot. A feldolgozás folyamatban van."
+  },
+  "statusChecking": {
+    "message": "Az átvétel ellenőrzése folyamatban van. Ne küldje el újra."
+  },
+  "statusNotSent": {
+    "message": "A dokumentum nem lett elküldve. Nyomtassa ki újra."
+  },
+  "statusBusy": {
+    "message": "A Fin3000 már feldolgoz egy dokumentumot. Rövidesen nyomtassa ki újra."
+  },
+  "statusConnectFirst": {
+    "message": "Csatlakoztassa egyszer a Fin3000-et, majd nyomtassa ki újra."
+  },
+  "statusInvalidPdf": {
+    "message": "A Chrome nem adott át érvényes nyomtatható PDF-változatot."
+  },
+  "statusTooLarge": {
+    "message": "A dokumentum nagyobb 20 MiB-nál, ezért nem lett elküldve."
+  },
+  "printRepresentationHelp": {
+    "message": "A Chrome a nyomtatható változatot továbbítja. Beágyazott e-számlaadatokhoz vagy aláírásokhoz használjon fájlfeltöltést vagy Fin3000 e-mailt."
+  },
+  "privacyNote": {
+    "message": "A bővítmény nem tárol tartósan portálcímeket, cookie-kat vagy PDF-adatokat."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Securely sends the PDF print representation created by Chrome to the Fin3000 document inbox."
+  },
+  "printerName": {
+    "message": "Send to Fin3000"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Connect to Fin3000 once"
+  },
+  "popupSubtitle": {
+    "message": "Chrome print destination"
+  },
+  "accountLabel": {
+    "message": "Account"
+  },
+  "notConnected": {
+    "message": "Not connected"
+  },
+  "connect": {
+    "message": "Connect to Fin3000"
+  },
+  "disconnect": {
+    "message": "Disconnect"
+  },
+  "openInbox": {
+    "message": "Open document inbox"
+  },
+  "statusReady": {
+    "message": "Ready to send."
+  },
+  "statusConnecting": {
+    "message": "Opening the Fin3000 connection …"
+  },
+  "statusWorking": {
+    "message": "Please wait …"
+  },
+  "statusConnectCancelled": {
+    "message": "Connection was cancelled."
+  },
+  "statusActionFailed": {
+    "message": "Action failed. Please try again."
+  },
+  "statusSending": {
+    "message": "Sending to Fin3000 …"
+  },
+  "statusAccepted": {
+    "message": "Document securely received by Fin3000. Processing is in progress."
+  },
+  "statusChecking": {
+    "message": "Receipt is being checked. Please do not send again."
+  },
+  "statusNotSent": {
+    "message": "The document was not sent. Please print again."
+  },
+  "statusBusy": {
+    "message": "Fin3000 is already processing a document. Please print again shortly."
+  },
+  "statusConnectFirst": {
+    "message": "Connect Fin3000 once, then print again."
+  },
+  "statusInvalidPdf": {
+    "message": "Chrome did not provide a valid PDF print representation."
+  },
+  "statusTooLarge": {
+    "message": "The document is larger than 20 MiB and was not sent."
+  },
+  "printRepresentationHelp": {
+    "message": "Chrome transfers the print representation. Use file upload or Fin3000 email for embedded e-invoice data or signatures."
+  },
+  "privacyNote": {
+    "message": "No portal URLs, cookies or PDF data are stored permanently in the extension."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Seolann sé an leagan PDF priontála a chruthaíonn Chrome go sábháilte chuig bosca isteach doiciméad Fin3000."
+  },
+  "printerName": {
+    "message": "Seol chuig Fin3000"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Ceangail le Fin3000 uair amháin"
+  },
+  "popupSubtitle": {
+    "message": "Ceann scríbe priontála Chrome"
+  },
+  "accountLabel": {
+    "message": "Cuntas"
+  },
+  "notConnected": {
+    "message": "Gan cheangal"
+  },
+  "connect": {
+    "message": "Ceangail le Fin3000"
+  },
+  "disconnect": {
+    "message": "Dícheangail"
+  },
+  "openInbox": {
+    "message": "Oscail bosca isteach na ndoiciméad"
+  },
+  "statusReady": {
+    "message": "Réidh le seoladh."
+  },
+  "statusConnecting": {
+    "message": "Ceangal Fin3000 á oscailt …"
+  },
+  "statusWorking": {
+    "message": "Fan le do thoil …"
+  },
+  "statusConnectCancelled": {
+    "message": "Cealaíodh an ceangal."
+  },
+  "statusActionFailed": {
+    "message": "Theip ar an ngníomh. Bain triail eile as."
+  },
+  "statusSending": {
+    "message": "Á sheoladh chuig Fin3000 …"
+  },
+  "statusAccepted": {
+    "message": "Fuair Fin3000 an doiciméad go sábháilte. Tá próiseáil ar siúl."
+  },
+  "statusChecking": {
+    "message": "Tá an glacadh á sheiceáil. Ná seol arís é."
+  },
+  "statusNotSent": {
+    "message": "Níor seoladh an doiciméad. Priontáil arís é."
+  },
+  "statusBusy": {
+    "message": "Tá Fin3000 ag próiseáil doiciméid cheana. Priontáil arís i gceann tamaill."
+  },
+  "statusConnectFirst": {
+    "message": "Ceangail Fin3000 uair amháin agus priontáil arís ansin."
+  },
+  "statusInvalidPdf": {
+    "message": "Níor sholáthair Chrome leagan bailí PDF priontála."
+  },
+  "statusTooLarge": {
+    "message": "Tá an doiciméad níos mó ná 20 MiB agus níor seoladh é."
+  },
+  "printRepresentationHelp": {
+    "message": "Aistríonn Chrome an leagan priontála. Úsáid uaslódáil comhaid nó ríomhphost Fin3000 le haghaidh sonraí ríomhshonraisc nó sínithe leabaithe."
+  },
+  "privacyNote": {
+    "message": "Ní stóráiltear seoltaí tairseacha, fianáin ná sonraí PDF go buan sa síneadh."
+  }
+}

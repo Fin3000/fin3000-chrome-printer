@@ -1,0 +1,18 @@
+{
+  "$schema": "./product.schema.json",
+  "profile": "production",
+  "profileVersion": 1,
+  "protocolVersion": 1,
+  "extensionVersion": "0.1.0",
+  "extensionId": "nchhenonjehkpmjmekbmeciififfaaem",
+  "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi69FrawlLX455IMx8q3rAzkIUHv6B8kRUTe3hMv03kp86nJuajQRFro/DH3WlBkcJcxMqQZA8SRC62oBfn4HfokTTHQI4JsgY0SKlptDpveh4hMULAbnfPwVzgyEJjbUvcq9J5aGctEWF5Vc0TwcAqbL1z6/HZ34TQEy0mI+FiRjuHfb9F3zn4s9eyNuleuZfImKjWBHbimxEzzHbp5azZaiBx7T7UkpW5HaXvo28h14OdV3Ihhirc19nwdcyaqA3zEZ/PlUCoeNe88dDLgPOnUvlf927tCTMIDGpT1CdzqGZZU0i6a1XtFFIFd5Lo1luh0nZlMCMYps4DptfYSTXQIDAQAB",
+  "minimumChromeVersion": "145",
+  "printerId": "fin3000-incoming-invoice",
+  "oauthClientId": "fin3000-chrome-print",
+  "apiOrigin": "https://api.fin3000.com",
+  "frontendOrigin": "https://app.fin3000.com",
+  "uploadOrigins": ["https://fsn1.your-objectstorage.com"],
+  "maxFileBytes": 20971520,
+  "operationDeadlineMs": 300000,
+  "operationTtlMs": 86400000
+}

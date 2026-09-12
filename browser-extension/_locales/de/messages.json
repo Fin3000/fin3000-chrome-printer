@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Sendet die von Chrome erzeugte PDF-Druckdarstellung sicher an den Fin3000-Belegeingang."
+  },
+  "printerName": {
+    "message": "An Fin3000 senden"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Einmal mit Fin3000 verbinden"
+  },
+  "popupSubtitle": {
+    "message": "Chrome-Druckziel"
+  },
+  "accountLabel": {
+    "message": "Konto"
+  },
+  "notConnected": {
+    "message": "Nicht verbunden"
+  },
+  "connect": {
+    "message": "Mit Fin3000 verbinden"
+  },
+  "disconnect": {
+    "message": "Verbindung trennen"
+  },
+  "openInbox": {
+    "message": "Belegeingang öffnen"
+  },
+  "statusReady": {
+    "message": "Bereit zum Senden."
+  },
+  "statusConnecting": {
+    "message": "Fin3000-Verbindung wird geöffnet …"
+  },
+  "statusWorking": {
+    "message": "Bitte warten …"
+  },
+  "statusConnectCancelled": {
+    "message": "Verbindung wurde abgebrochen."
+  },
+  "statusActionFailed": {
+    "message": "Aktion fehlgeschlagen. Bitte erneut versuchen."
+  },
+  "statusSending": {
+    "message": "Wird an Fin3000 gesendet …"
+  },
+  "statusAccepted": {
+    "message": "Dokument sicher bei Fin3000 eingegangen. Verarbeitung läuft."
+  },
+  "statusChecking": {
+    "message": "Übernahme wird geprüft. Bitte nicht erneut senden."
+  },
+  "statusNotSent": {
+    "message": "Das Dokument wurde nicht gesendet. Bitte erneut drucken."
+  },
+  "statusBusy": {
+    "message": "Fin3000 verarbeitet bereits ein Dokument. Bitte kurz erneut drucken."
+  },
+  "statusConnectFirst": {
+    "message": "Fin3000 einmal verbinden und anschließend erneut drucken."
+  },
+  "statusInvalidPdf": {
+    "message": "Chrome hat keine gültige PDF-Druckdarstellung geliefert."
+  },
+  "statusTooLarge": {
+    "message": "Das Dokument ist größer als 20 MiB und wurde nicht gesendet."
+  },
+  "printRepresentationHelp": {
+    "message": "Chrome überträgt die Druckdarstellung. Für eingebettete E-Rechnungsdaten oder Signaturen nutze Datei-Upload oder Fin3000-E-Mail."
+  },
+  "privacyNote": {
+    "message": "Keine Portal-URLs, Cookies oder PDF-Daten werden dauerhaft in der Erweiterung gespeichert."
+  }
+}

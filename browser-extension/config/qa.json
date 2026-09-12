@@ -1,0 +1,18 @@
+{
+  "$schema": "./product.schema.json",
+  "profile": "qa",
+  "profileVersion": 1,
+  "protocolVersion": 1,
+  "extensionVersion": "0.1.0",
+  "extensionId": "bglmjpfbiofbjcidiceblanlmmfikjil",
+  "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1W7bL7x/aEQsoci7aziBiVWLZqX+05huihKJobSdt7HndKVPOYYF6S2kCj1+HRXhFe9DK2+DKQ5TcqWObl5Y/2IFOoSrGkVWNu0Q/HsP/2Lf+uiOAp8qP+jOniHrfos/ZmjA9ByvD1xfYbOpuuvATbEFk8pTEo81CPWoIx5XchesIp45DVkZppZbJgkEzNitMJldsV/Qa4dhjHmEicOIh+H+/v427XXEbwG6ZcKeh3J9rC+4RdFXoRQ/hJVSNeK+0UL91zRz7GmG31VkoUNdrPHGr1KiK8wg2rCtdsYtbgUCbhBvUzP3/WTEOfX3Ka6YXyyn1a/Ps9VaYS62XpUqiQIDAQAB",
+  "minimumChromeVersion": "145",
+  "printerId": "fin3000-incoming-invoice",
+  "oauthClientId": "fin3000-chrome-print-qa",
+  "apiOrigin": "http://127.0.0.1:8000",
+  "frontendOrigin": "http://localhost:4200",
+  "uploadOrigins": ["https://fsn1.your-objectstorage.com"],
+  "maxFileBytes": 20971520,
+  "operationDeadlineMs": 300000,
+  "operationTtlMs": 86400000
+}

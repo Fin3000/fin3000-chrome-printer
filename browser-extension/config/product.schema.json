@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fin3000.com/browser-extension/product-profile.schema.json",
+  "title": "Fin3000 Chrome print destination profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "profile",
+    "profileVersion",
+    "protocolVersion",
+    "extensionVersion",
+    "extensionId",
+    "publicKey",
+    "minimumChromeVersion",
+    "printerId",
+    "oauthClientId",
+    "apiOrigin",
+    "frontendOrigin",
+    "uploadOrigins",
+    "maxFileBytes",
+    "operationDeadlineMs",
+    "operationTtlMs"
+  ],
+  "properties": {
+    "profile": { "enum": ["qa", "store-id-qa", "production"] },
+    "profileVersion": { "type": "integer", "const": 1 },
+    "protocolVersion": { "type": "integer", "const": 1 },
+    "extensionVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "extensionId": { "type": "string", "pattern": "^[a-p]{32}$" },
+    "publicKey": { "type": "string", "minLength": 100 },
+    "minimumChromeVersion": { "type": "string", "pattern": "^[0-9]+$" },
+    "printerId": { "type": "string", "const": "fin3000-incoming-invoice" },
+    "oauthClientId": { "type": "string", "minLength": 1, "maxLength": 255 },
+    "apiOrigin": { "type": "string" },
+    "frontendOrigin": { "type": "string" },
+    "uploadOrigins": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string" }
+    },
+    "maxFileBytes": { "type": "integer", "const": 20971520 },
+    "operationDeadlineMs": { "type": "integer", "minimum": 30000, "maximum": 300000 },
+    "operationTtlMs": { "type": "integer", "minimum": 300000, "maximum": 86400000 }
+  }
+}
