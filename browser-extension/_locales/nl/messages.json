@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Stuurt de door Chrome gemaakte afdrukweergave als PDF veilig naar de documentinbox van Fin3000."
+  },
+  "printerName": {
+    "message": "Naar Fin3000 sturen"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Eenmalig verbinden met Fin3000"
+  },
+  "popupSubtitle": {
+    "message": "Chrome-afdrukbestemming"
+  },
+  "accountLabel": {
+    "message": "Account"
+  },
+  "notConnected": {
+    "message": "Niet verbonden"
+  },
+  "connect": {
+    "message": "Verbinden met Fin3000"
+  },
+  "disconnect": {
+    "message": "Verbinding verbreken"
+  },
+  "openInbox": {
+    "message": "Documentinbox openen"
+  },
+  "statusReady": {
+    "message": "Klaar om te verzenden."
+  },
+  "statusConnecting": {
+    "message": "Fin3000-verbinding wordt geopend …"
+  },
+  "statusWorking": {
+    "message": "Even geduld …"
+  },
+  "statusConnectCancelled": {
+    "message": "De verbinding is geannuleerd."
+  },
+  "statusActionFailed": {
+    "message": "De actie is mislukt. Probeer het opnieuw."
+  },
+  "statusSending": {
+    "message": "Wordt naar Fin3000 gestuurd …"
+  },
+  "statusAccepted": {
+    "message": "Document veilig ontvangen door Fin3000. De verwerking is bezig."
+  },
+  "statusChecking": {
+    "message": "De ontvangst wordt gecontroleerd. Verstuur niet opnieuw."
+  },
+  "statusNotSent": {
+    "message": "Het document is niet verzonden. Druk opnieuw af."
+  },
+  "statusBusy": {
+    "message": "Fin3000 verwerkt al een document. Druk het over een moment opnieuw af."
+  },
+  "statusConnectFirst": {
+    "message": "Verbind Fin3000 één keer en druk daarna opnieuw af."
+  },
+  "statusInvalidPdf": {
+    "message": "Chrome heeft geen geldige PDF-afdrukweergave geleverd."
+  },
+  "statusTooLarge": {
+    "message": "Het document is groter dan 20 MiB en is niet verzonden."
+  },
+  "printRepresentationHelp": {
+    "message": "Chrome verstuurt de afdrukweergave. Gebruik bestandsupload of Fin3000-e-mail voor ingesloten e-factuurgegevens of handtekeningen."
+  },
+  "privacyNote": {
+    "message": "De extensie bewaart geen portaladressen, cookies of PDF-gegevens permanent."
+  }
+}

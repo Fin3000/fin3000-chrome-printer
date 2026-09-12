@@ -1,0 +1,150 @@
+:root {
+  color-scheme: light dark;
+  font:
+    14px/1.45 system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  --bg: #ffffff;
+  --fg: #172033;
+  --muted: #5d687a;
+  --border: #d7dce4;
+  --brand: #2457d6;
+  --brand-hover: #1946b8;
+  --success: #14733d;
+  --warning: #8a5a00;
+  --error: #b42318;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #171a21;
+    --fg: #f2f4f7;
+    --muted: #b6bdc9;
+    --border: #3d4451;
+    --brand: #7da2ff;
+    --brand-hover: #9bb8ff;
+    --success: #67d391;
+    --warning: #f2c15c;
+    --error: #ff8c83;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  min-width: 320px;
+  max-width: 320px;
+  background: var(--bg);
+  color: var(--fg);
+}
+body {
+  min-height: 300px;
+}
+main {
+  padding: 18px;
+}
+header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+h1 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.2;
+}
+header p {
+  margin: 2px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+.account {
+  margin: 18px 0 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+.label {
+  display: block;
+  margin-bottom: 2px;
+  color: var(--muted);
+  font-size: 12px;
+}
+#account-name {
+  display: -webkit-box;
+  overflow: hidden;
+  font-weight: 650;
+  overflow-wrap: anywhere;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.status {
+  min-height: 42px;
+  margin: 12px 0;
+  color: var(--muted);
+}
+.status[data-kind='success'] {
+  color: var(--success);
+}
+.status[data-kind='checking'] {
+  color: var(--warning);
+}
+.status[data-kind='error'] {
+  color: var(--error);
+}
+.actions {
+  display: grid;
+  gap: 8px;
+}
+button {
+  min-height: 40px;
+  border: 1px solid var(--brand);
+  border-radius: 7px;
+  background: var(--brand);
+  color: #fff;
+  padding: 8px 12px;
+  font: inherit;
+  font-weight: 650;
+  cursor: pointer;
+}
+button:hover:not(:disabled) {
+  background: var(--brand-hover);
+}
+button:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--brand) 35%, transparent);
+  outline-offset: 2px;
+}
+button:disabled {
+  cursor: progress;
+  opacity: 0.6;
+}
+button.secondary {
+  background: transparent;
+  color: var(--fg);
+  border-color: var(--border);
+}
+.hint,
+.privacy {
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+.privacy {
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+[hidden] {
+  display: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}

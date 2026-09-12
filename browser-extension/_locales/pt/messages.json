@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Envia com segurança a representação PDF para impressão criada pelo Chrome para a caixa de documentos do Fin3000."
+  },
+  "printerName": {
+    "message": "Enviar para o Fin3000"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Ligar uma vez ao Fin3000"
+  },
+  "popupSubtitle": {
+    "message": "Destino de impressão do Chrome"
+  },
+  "accountLabel": {
+    "message": "Conta"
+  },
+  "notConnected": {
+    "message": "Não ligado"
+  },
+  "connect": {
+    "message": "Ligar ao Fin3000"
+  },
+  "disconnect": {
+    "message": "Desligar"
+  },
+  "openInbox": {
+    "message": "Abrir caixa de documentos"
+  },
+  "statusReady": {
+    "message": "Pronto para enviar."
+  },
+  "statusConnecting": {
+    "message": "A abrir a ligação ao Fin3000 …"
+  },
+  "statusWorking": {
+    "message": "Aguarde …"
+  },
+  "statusConnectCancelled": {
+    "message": "A ligação foi cancelada."
+  },
+  "statusActionFailed": {
+    "message": "A ação falhou. Tente novamente."
+  },
+  "statusSending": {
+    "message": "A enviar para o Fin3000 …"
+  },
+  "statusAccepted": {
+    "message": "Documento recebido com segurança pelo Fin3000. O processamento está em curso."
+  },
+  "statusChecking": {
+    "message": "A receção está a ser verificada. Não envie novamente."
+  },
+  "statusNotSent": {
+    "message": "O documento não foi enviado. Imprima novamente."
+  },
+  "statusBusy": {
+    "message": "O Fin3000 já está a processar um documento. Imprima novamente dentro de instantes."
+  },
+  "statusConnectFirst": {
+    "message": "Ligue o Fin3000 uma vez e depois imprima novamente."
+  },
+  "statusInvalidPdf": {
+    "message": "O Chrome não forneceu uma representação PDF válida para impressão."
+  },
+  "statusTooLarge": {
+    "message": "O documento tem mais de 20 MiB e não foi enviado."
+  },
+  "printRepresentationHelp": {
+    "message": "O Chrome transfere a representação para impressão. Para dados de fatura eletrónica ou assinaturas incorporados, use o carregamento de ficheiro ou o e-mail Fin3000."
+  },
+  "privacyNote": {
+    "message": "A extensão não guarda permanentemente endereços de portais, cookies ou dados PDF."
+  }
+}

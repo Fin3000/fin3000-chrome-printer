@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Invia in modo sicuro la rappresentazione PDF stampabile creata da Chrome alla casella documenti di Fin3000."
+  },
+  "printerName": {
+    "message": "Invia a Fin3000"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Collega Fin3000 una volta"
+  },
+  "popupSubtitle": {
+    "message": "Destinazione di stampa Chrome"
+  },
+  "accountLabel": {
+    "message": "Account"
+  },
+  "notConnected": {
+    "message": "Non collegato"
+  },
+  "connect": {
+    "message": "Collega a Fin3000"
+  },
+  "disconnect": {
+    "message": "Disconnetti"
+  },
+  "openInbox": {
+    "message": "Apri documenti in arrivo"
+  },
+  "statusReady": {
+    "message": "Pronto per l’invio."
+  },
+  "statusConnecting": {
+    "message": "Apertura del collegamento a Fin3000 …"
+  },
+  "statusWorking": {
+    "message": "Attendi …"
+  },
+  "statusConnectCancelled": {
+    "message": "Il collegamento è stato annullato."
+  },
+  "statusActionFailed": {
+    "message": "Azione non riuscita. Riprova."
+  },
+  "statusSending": {
+    "message": "Invio a Fin3000 …"
+  },
+  "statusAccepted": {
+    "message": "Documento ricevuto in modo sicuro da Fin3000. Elaborazione in corso."
+  },
+  "statusChecking": {
+    "message": "La ricezione è in fase di verifica. Non inviare di nuovo."
+  },
+  "statusNotSent": {
+    "message": "Il documento non è stato inviato. Stampa di nuovo."
+  },
+  "statusBusy": {
+    "message": "Fin3000 sta già elaborando un documento. Riprova a stampare tra poco."
+  },
+  "statusConnectFirst": {
+    "message": "Collega Fin3000 una volta, quindi stampa di nuovo."
+  },
+  "statusInvalidPdf": {
+    "message": "Chrome non ha fornito una rappresentazione PDF stampabile valida."
+  },
+  "statusTooLarge": {
+    "message": "Il documento supera 20 MiB e non è stato inviato."
+  },
+  "printRepresentationHelp": {
+    "message": "Chrome trasferisce la rappresentazione stampabile. Per dati di fattura elettronica o firme incorporati usa il caricamento file o l’e-mail Fin3000."
+  },
+  "privacyNote": {
+    "message": "L’estensione non conserva in modo permanente indirizzi dei portali, cookie o dati PDF."
+  }
+}

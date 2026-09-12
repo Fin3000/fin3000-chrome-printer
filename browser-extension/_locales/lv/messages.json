@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Droši nosūta Chrome izveidoto drukājamo PDF attēlojumu uz Fin3000 dokumentu iesūtni."
+  },
+  "printerName": {
+    "message": "Sūtīt uz Fin3000"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Vienreiz savienot ar Fin3000"
+  },
+  "popupSubtitle": {
+    "message": "Chrome drukāšanas galamērķis"
+  },
+  "accountLabel": {
+    "message": "Konts"
+  },
+  "notConnected": {
+    "message": "Nav savienots"
+  },
+  "connect": {
+    "message": "Savienot ar Fin3000"
+  },
+  "disconnect": {
+    "message": "Atvienot"
+  },
+  "openInbox": {
+    "message": "Atvērt dokumentu iesūtni"
+  },
+  "statusReady": {
+    "message": "Gatavs nosūtīšanai."
+  },
+  "statusConnecting": {
+    "message": "Tiek atvērts savienojums ar Fin3000 …"
+  },
+  "statusWorking": {
+    "message": "Lūdzu, uzgaidiet …"
+  },
+  "statusConnectCancelled": {
+    "message": "Savienošana tika atcelta."
+  },
+  "statusActionFailed": {
+    "message": "Darbība neizdevās. Mēģiniet vēlreiz."
+  },
+  "statusSending": {
+    "message": "Tiek sūtīts uz Fin3000 …"
+  },
+  "statusAccepted": {
+    "message": "Fin3000 droši saņēma dokumentu. Notiek apstrāde."
+  },
+  "statusChecking": {
+    "message": "Saņemšana tiek pārbaudīta. Nesūtiet vēlreiz."
+  },
+  "statusNotSent": {
+    "message": "Dokuments netika nosūtīts. Drukājiet vēlreiz."
+  },
+  "statusBusy": {
+    "message": "Fin3000 jau apstrādā dokumentu. Drukājiet vēlreiz pēc brīža."
+  },
+  "statusConnectFirst": {
+    "message": "Vienreiz savienojiet Fin3000 un pēc tam drukājiet vēlreiz."
+  },
+  "statusInvalidPdf": {
+    "message": "Chrome nenodrošināja derīgu drukājamu PDF attēlojumu."
+  },
+  "statusTooLarge": {
+    "message": "Dokuments ir lielāks par 20 MiB un netika nosūtīts."
+  },
+  "printRepresentationHelp": {
+    "message": "Chrome pārsūta drukājamo attēlojumu. Iegultiem e-rēķina datiem vai parakstiem izmantojiet faila augšupielādi vai Fin3000 e-pastu."
+  },
+  "privacyNote": {
+    "message": "Paplašinājums pastāvīgi neglabā portālu adreses, sīkfailus vai PDF datus."
+  }
+}

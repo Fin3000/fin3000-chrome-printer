@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Skickar PDF-utskriftsvyn som Chrome skapar säkert till dokumentinkorgen i Fin3000."
+  },
+  "printerName": {
+    "message": "Skicka till Fin3000"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Anslut till Fin3000 en gång"
+  },
+  "popupSubtitle": {
+    "message": "Chrome-utskriftsmål"
+  },
+  "accountLabel": {
+    "message": "Konto"
+  },
+  "notConnected": {
+    "message": "Inte ansluten"
+  },
+  "connect": {
+    "message": "Anslut till Fin3000"
+  },
+  "disconnect": {
+    "message": "Koppla från"
+  },
+  "openInbox": {
+    "message": "Öppna dokumentinkorgen"
+  },
+  "statusReady": {
+    "message": "Redo att skicka."
+  },
+  "statusConnecting": {
+    "message": "Öppnar anslutningen till Fin3000 …"
+  },
+  "statusWorking": {
+    "message": "Vänta …"
+  },
+  "statusConnectCancelled": {
+    "message": "Anslutningen avbröts."
+  },
+  "statusActionFailed": {
+    "message": "Åtgärden misslyckades. Försök igen."
+  },
+  "statusSending": {
+    "message": "Skickar till Fin3000 …"
+  },
+  "statusAccepted": {
+    "message": "Dokumentet har tagits emot säkert av Fin3000. Bearbetning pågår."
+  },
+  "statusChecking": {
+    "message": "Mottagandet kontrolleras. Skicka inte igen."
+  },
+  "statusNotSent": {
+    "message": "Dokumentet skickades inte. Skriv ut igen."
+  },
+  "statusBusy": {
+    "message": "Fin3000 bearbetar redan ett dokument. Skriv ut igen om en liten stund."
+  },
+  "statusConnectFirst": {
+    "message": "Anslut Fin3000 en gång och skriv sedan ut igen."
+  },
+  "statusInvalidPdf": {
+    "message": "Chrome levererade inte en giltig PDF-utskriftsvy."
+  },
+  "statusTooLarge": {
+    "message": "Dokumentet är större än 20 MiB och skickades inte."
+  },
+  "printRepresentationHelp": {
+    "message": "Chrome överför utskriftsvyn. Använd filuppladdning eller Fin3000-e-post för inbäddade e-fakturadata eller signaturer."
+  },
+  "privacyNote": {
+    "message": "Tillägget lagrar inte portaladresser, cookies eller PDF-data permanent."
+  }
+}

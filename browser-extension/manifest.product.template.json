@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "version": "__EXTENSION_VERSION__",
+  "minimum_chrome_version": "__MINIMUM_CHROME_VERSION__",
+  "default_locale": "de",
+  "key": "__PUBLIC_KEY__",
+  "permissions": ["identity", "notifications", "printerProvider", "storage"],
+  "host_permissions": __HOST_PERMISSIONS__,
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "__MSG_extensionName__",
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}

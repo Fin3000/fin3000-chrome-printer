@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Lähettää Chromen luoman tulostettavan PDF-esityksen turvallisesti Fin3000:n asiakirjasaapuneisiin."
+  },
+  "printerName": {
+    "message": "Lähetä Fin3000:een"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Yhdistä kerran Fin3000:een"
+  },
+  "popupSubtitle": {
+    "message": "Chromen tulostuskohde"
+  },
+  "accountLabel": {
+    "message": "Tili"
+  },
+  "notConnected": {
+    "message": "Ei yhdistetty"
+  },
+  "connect": {
+    "message": "Yhdistä Fin3000:een"
+  },
+  "disconnect": {
+    "message": "Katkaise yhteys"
+  },
+  "openInbox": {
+    "message": "Avaa asiakirjasaapuneet"
+  },
+  "statusReady": {
+    "message": "Valmis lähetettäväksi."
+  },
+  "statusConnecting": {
+    "message": "Avataan Fin3000-yhteyttä …"
+  },
+  "statusWorking": {
+    "message": "Odota hetki …"
+  },
+  "statusConnectCancelled": {
+    "message": "Yhdistäminen peruutettiin."
+  },
+  "statusActionFailed": {
+    "message": "Toiminto epäonnistui. Yritä uudelleen."
+  },
+  "statusSending": {
+    "message": "Lähetetään Fin3000:een …"
+  },
+  "statusAccepted": {
+    "message": "Fin3000 vastaanotti asiakirjan turvallisesti. Käsittely on käynnissä."
+  },
+  "statusChecking": {
+    "message": "Vastaanottoa tarkistetaan. Älä lähetä uudelleen."
+  },
+  "statusNotSent": {
+    "message": "Asiakirjaa ei lähetetty. Tulosta uudelleen."
+  },
+  "statusBusy": {
+    "message": "Fin3000 käsittelee jo asiakirjaa. Tulosta hetken kuluttua uudelleen."
+  },
+  "statusConnectFirst": {
+    "message": "Yhdistä Fin3000 kerran ja tulosta sitten uudelleen."
+  },
+  "statusInvalidPdf": {
+    "message": "Chrome ei toimittanut kelvollista tulostettavaa PDF-esitystä."
+  },
+  "statusTooLarge": {
+    "message": "Asiakirja on yli 20 MiB, eikä sitä lähetetty."
+  },
+  "printRepresentationHelp": {
+    "message": "Chrome siirtää tulostettavan esityksen. Käytä tiedoston latausta tai Fin3000-sähköpostia upotetuille verkkolaskutiedoille tai allekirjoituksille."
+  },
+  "privacyNote": {
+    "message": "Laajennus ei tallenna pysyvästi portaaliosoitteita, evästeitä eikä PDF-tietoja."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Chrome tarafından oluşturulan yazdırılabilir PDF görünümünü Fin3000 belge gelen kutusuna güvenli biçimde gönderir."
+  },
+  "printerName": {
+    "message": "Fin3000’e gönder"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Fin3000’e bir kez bağlan"
+  },
+  "popupSubtitle": {
+    "message": "Chrome yazdırma hedefi"
+  },
+  "accountLabel": {
+    "message": "Hesap"
+  },
+  "notConnected": {
+    "message": "Bağlı değil"
+  },
+  "connect": {
+    "message": "Fin3000’e bağlan"
+  },
+  "disconnect": {
+    "message": "Bağlantıyı kes"
+  },
+  "openInbox": {
+    "message": "Belge gelen kutusunu aç"
+  },
+  "statusReady": {
+    "message": "Göndermeye hazır."
+  },
+  "statusConnecting": {
+    "message": "Fin3000 bağlantısı açılıyor …"
+  },
+  "statusWorking": {
+    "message": "Lütfen bekleyin …"
+  },
+  "statusConnectCancelled": {
+    "message": "Bağlantı iptal edildi."
+  },
+  "statusActionFailed": {
+    "message": "İşlem başarısız oldu. Yeniden deneyin."
+  },
+  "statusSending": {
+    "message": "Fin3000’e gönderiliyor …"
+  },
+  "statusAccepted": {
+    "message": "Belge Fin3000 tarafından güvenli biçimde alındı. İşleniyor."
+  },
+  "statusChecking": {
+    "message": "Alım kontrol ediliyor. Lütfen yeniden göndermeyin."
+  },
+  "statusNotSent": {
+    "message": "Belge gönderilmedi. Lütfen yeniden yazdırın."
+  },
+  "statusBusy": {
+    "message": "Fin3000 zaten bir belge işliyor. Kısa süre sonra yeniden yazdırın."
+  },
+  "statusConnectFirst": {
+    "message": "Fin3000’e bir kez bağlanın, ardından yeniden yazdırın."
+  },
+  "statusInvalidPdf": {
+    "message": "Chrome geçerli bir yazdırılabilir PDF görünümü sağlamadı."
+  },
+  "statusTooLarge": {
+    "message": "Belge 20 MiB’den büyük ve gönderilmedi."
+  },
+  "printRepresentationHelp": {
+    "message": "Chrome yazdırılabilir görünümü aktarır. Gömülü e-fatura verileri veya imzalar için dosya yüklemeyi ya da Fin3000 e-postasını kullanın."
+  },
+  "privacyNote": {
+    "message": "Uzantı portal adreslerini, çerezleri veya PDF verilerini kalıcı olarak saklamaz."
+  }
+}

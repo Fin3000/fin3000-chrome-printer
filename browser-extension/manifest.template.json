@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Fin3000 Druckziel G1 Canary",
+  "description": "Lokaler Nachweis für das Chrome-Druckziel An Fin3000 senden. Es findet kein Upload statt.",
+  "version": "0.2.0",
+  "minimum_chrome_version": "__MINIMUM_CHROME_VERSION__",
+  "key": "__PUBLIC_KEY__",
+  "permissions": ["printerProvider", "storage"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Fin3000 G1 Canary",
+    "default_icon": "icon.svg"
+  },
+  "icons": {
+    "128": "icon.svg"
+  }
+}

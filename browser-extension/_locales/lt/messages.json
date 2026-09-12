@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Saugiai siunčia „Chrome“ sukurtą spausdinamą PDF atvaizdą į „Fin3000“ dokumentų gautuosius."
+  },
+  "printerName": {
+    "message": "Siųsti į Fin3000"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Vieną kartą prisijunkite prie Fin3000"
+  },
+  "popupSubtitle": {
+    "message": "„Chrome“ spausdinimo paskirties vieta"
+  },
+  "accountLabel": {
+    "message": "Paskyra"
+  },
+  "notConnected": {
+    "message": "Neprisijungta"
+  },
+  "connect": {
+    "message": "Prisijungti prie Fin3000"
+  },
+  "disconnect": {
+    "message": "Atsijungti"
+  },
+  "openInbox": {
+    "message": "Atverti dokumentų gautuosius"
+  },
+  "statusReady": {
+    "message": "Paruošta siųsti."
+  },
+  "statusConnecting": {
+    "message": "Atveriamas ryšys su Fin3000 …"
+  },
+  "statusWorking": {
+    "message": "Palaukite …"
+  },
+  "statusConnectCancelled": {
+    "message": "Prisijungimas atšauktas."
+  },
+  "statusActionFailed": {
+    "message": "Veiksmas nepavyko. Bandykite dar kartą."
+  },
+  "statusSending": {
+    "message": "Siunčiama į Fin3000 …"
+  },
+  "statusAccepted": {
+    "message": "Fin3000 saugiai gavo dokumentą. Vyksta apdorojimas."
+  },
+  "statusChecking": {
+    "message": "Gavimas tikrinamas. Nesiųskite dar kartą."
+  },
+  "statusNotSent": {
+    "message": "Dokumentas neišsiųstas. Spausdinkite dar kartą."
+  },
+  "statusBusy": {
+    "message": "Fin3000 jau apdoroja dokumentą. Netrukus spausdinkite dar kartą."
+  },
+  "statusConnectFirst": {
+    "message": "Vieną kartą prijunkite Fin3000, tada spausdinkite dar kartą."
+  },
+  "statusInvalidPdf": {
+    "message": "„Chrome“ nepateikė tinkamo spausdinamo PDF atvaizdo."
+  },
+  "statusTooLarge": {
+    "message": "Dokumentas didesnis nei 20 MiB ir nebuvo išsiųstas."
+  },
+  "printRepresentationHelp": {
+    "message": "„Chrome“ perduoda spausdinamą atvaizdą. Įterptiems e. sąskaitos duomenims ar parašams naudokite failo įkėlimą arba Fin3000 el. paštą."
+  },
+  "privacyNote": {
+    "message": "Plėtinys nuolat nesaugo portalų adresų, slapukų ar PDF duomenų."
+  }
+}

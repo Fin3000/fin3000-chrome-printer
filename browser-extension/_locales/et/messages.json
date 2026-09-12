@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Saadab Chrome’i loodud PDF-prindivaate turvaliselt Fin3000 dokumentide sisendkausta."
+  },
+  "printerName": {
+    "message": "Saada Fin3000-sse"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Ühenda üks kord Fin3000-ga"
+  },
+  "popupSubtitle": {
+    "message": "Chrome’i printimise sihtkoht"
+  },
+  "accountLabel": {
+    "message": "Konto"
+  },
+  "notConnected": {
+    "message": "Pole ühendatud"
+  },
+  "connect": {
+    "message": "Ühenda Fin3000-ga"
+  },
+  "disconnect": {
+    "message": "Katkesta ühendus"
+  },
+  "openInbox": {
+    "message": "Ava dokumentide sisendkaust"
+  },
+  "statusReady": {
+    "message": "Saatmiseks valmis."
+  },
+  "statusConnecting": {
+    "message": "Fin3000 ühenduse avamine …"
+  },
+  "statusWorking": {
+    "message": "Palun oota …"
+  },
+  "statusConnectCancelled": {
+    "message": "Ühendamine katkestati."
+  },
+  "statusActionFailed": {
+    "message": "Toiming nurjus. Proovi uuesti."
+  },
+  "statusSending": {
+    "message": "Saatmine Fin3000-sse …"
+  },
+  "statusAccepted": {
+    "message": "Fin3000 võttis dokumendi turvaliselt vastu. Töötlemine jätkub."
+  },
+  "statusChecking": {
+    "message": "Vastuvõttu kontrollitakse. Ära saada uuesti."
+  },
+  "statusNotSent": {
+    "message": "Dokumenti ei saadetud. Prindi uuesti."
+  },
+  "statusBusy": {
+    "message": "Fin3000 töötleb juba üht dokumenti. Prindi hetke pärast uuesti."
+  },
+  "statusConnectFirst": {
+    "message": "Ühenda Fin3000 üks kord ja prindi seejärel uuesti."
+  },
+  "statusInvalidPdf": {
+    "message": "Chrome ei edastanud kehtivat PDF-prindivaadet."
+  },
+  "statusTooLarge": {
+    "message": "Dokument on suurem kui 20 MiB ja seda ei saadetud."
+  },
+  "printRepresentationHelp": {
+    "message": "Chrome edastab prindivaate. Manustatud e-arve andmete või allkirjade jaoks kasuta faili üleslaadimist või Fin3000 e-posti."
+  },
+  "privacyNote": {
+    "message": "Laiendus ei salvesta püsivalt portaali aadresse, küpsiseid ega PDF-andmeid."
+  }
+}

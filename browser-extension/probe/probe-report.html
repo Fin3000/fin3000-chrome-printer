@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fin3000 G1 Druckziel</title>
+    <link rel="stylesheet" href="probe-report.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="icon.svg" alt="" />
+        <div>
+          <h1>Fin3000 G1 Druckziel</h1>
+          <p>Technischer Nachweis, ohne Upload zu Fin3000.</p>
+        </div>
+      </header>
+
+      <section aria-labelledby="runtime-heading">
+        <h2 id="runtime-heading">Druckziel</h2>
+        <dl>
+          <div><dt>Name</dt><dd>An Fin3000 senden</dd></div>
+          <div><dt>Printer-API</dt><dd id="api-status">wird geprüft</dd></div>
+          <div><dt>Chrome</dt><dd id="chrome-version">wird geprüft</dd></div>
+        </dl>
+      </section>
+
+      <section aria-labelledby="steps-heading">
+        <h2 id="steps-heading">Testdruck</h2>
+        <ol>
+          <li><a id="fixture-link" target="_blank">Hello-World-PDF öffnen</a></li>
+          <li><kbd>Strg</kbd> + <kbd>P</kbd> drücken.</li>
+          <li>Unter „Ziel“ auf „Mehr anzeigen“ und „An Fin3000 senden“ wählen.</li>
+          <li>Auf „Drucken“ klicken und hier das Ergebnis prüfen.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="delay-heading">
+        <h2 id="delay-heading">Callback-Verzögerung</h2>
+        <div id="delay-options" class="delay-options" role="group" aria-label="Callback-Verzögerung"></div>
+        <p>Die Stufen 2, 30, 90 und 300 Sekunden prüfen die Lebensdauer des Printjobs.</p>
+      </section>
+
+      <section aria-labelledby="result-heading">
+        <div class="section-heading">
+          <h2 id="result-heading">Letztes Ergebnis</h2>
+          <button id="clear-results" type="button">Ergebnisse löschen</button>
+        </div>
+        <pre id="result">Noch kein Druckereignis.</pre>
+      </section>
+
+      <aside>
+        Dieser Bericht enthält keine URL-Werte, Cookies, Seitentitel, Tickets oder PDF-Daten.
+        Er speichert nur Typ, Größe, PDF-Magic, Zeitpunkt und Callback-Ergebnis lokal.
+      </aside>
+    </main>
+    <script src="probe-report.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Изпраща сигурно PDF изгледа за печат, създаден от Chrome, към входящите документи във Fin3000."
+  },
+  "printerName": {
+    "message": "Изпращане към Fin3000"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Свържете се веднъж с Fin3000"
+  },
+  "popupSubtitle": {
+    "message": "Местоназначение за печат в Chrome"
+  },
+  "accountLabel": {
+    "message": "Акаунт"
+  },
+  "notConnected": {
+    "message": "Няма връзка"
+  },
+  "connect": {
+    "message": "Свързване с Fin3000"
+  },
+  "disconnect": {
+    "message": "Прекъсване на връзката"
+  },
+  "openInbox": {
+    "message": "Отваряне на входящите документи"
+  },
+  "statusReady": {
+    "message": "Готово за изпращане."
+  },
+  "statusConnecting": {
+    "message": "Отваря се връзката с Fin3000 …"
+  },
+  "statusWorking": {
+    "message": "Моля, изчакайте …"
+  },
+  "statusConnectCancelled": {
+    "message": "Свързването беше отменено."
+  },
+  "statusActionFailed": {
+    "message": "Действието е неуспешно. Опитайте отново."
+  },
+  "statusSending": {
+    "message": "Изпраща се към Fin3000 …"
+  },
+  "statusAccepted": {
+    "message": "Документът е получен сигурно във Fin3000. Обработката продължава."
+  },
+  "statusChecking": {
+    "message": "Получаването се проверява. Не изпращайте отново."
+  },
+  "statusNotSent": {
+    "message": "Документът не беше изпратен. Отпечатайте отново."
+  },
+  "statusBusy": {
+    "message": "Fin3000 вече обработва документ. Опитайте да отпечатате отново след малко."
+  },
+  "statusConnectFirst": {
+    "message": "Свържете Fin3000 веднъж и след това отпечатайте отново."
+  },
+  "statusInvalidPdf": {
+    "message": "Chrome не предостави валиден PDF изглед за печат."
+  },
+  "statusTooLarge": {
+    "message": "Документът е по-голям от 20 MiB и не беше изпратен."
+  },
+  "printRepresentationHelp": {
+    "message": "Chrome прехвърля изгледа за печат. За вградени данни от е-фактури или подписи използвайте качване на файл или имейл към Fin3000."
+  },
+  "privacyNote": {
+    "message": "В разширението не се съхраняват постоянно адреси на портали, бисквитки или PDF данни."
+  }
+}
