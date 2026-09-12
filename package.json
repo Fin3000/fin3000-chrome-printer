@@ -1,0 +1,31 @@
+{
+  "name": "@fin3000/chrome-printer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "extension:doctor": "node scripts/doctor-product-browser-extension.mjs",
+    "extension:g1:doctor": "node scripts/doctor-browser-extension.mjs --profile g1-probe",
+    "extension:g1": "node scripts/probe-printer-provider-extension.mjs --profile g1-probe",
+    "extension:g1:build": "node scripts/probe-printer-provider-extension.mjs --profile g1-probe --no-launch",
+    "extension:typecheck": "tsc -p browser-extension/tsconfig.json --noEmit",
+    "extension:build:qa": "node scripts/build-browser-extension.mjs --profile qa",
+    "extension:build:store-id-qa": "node scripts/build-browser-extension.mjs --profile store-id-qa",
+    "extension:build:prod": "node scripts/build-browser-extension.mjs --profile production",
+    "extension:inspect": "node scripts/inspect-browser-extension.mjs",
+    "extension:verify:prod": "npm run extension:build:prod && npm run extension:inspect -- dist/browser-extension/production/unpacked",
+    "extension:repro:qa": "node scripts/repro-browser-extension.mjs qa",
+    "extension:repro:prod": "node scripts/repro-browser-extension.mjs production",
+    "extension:bootstrap:prod": "node scripts/bootstrap-browser-extension-prod.mjs",
+    "extension:test": "node --test scripts/browser-extension-*.test.mjs"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.2.7",
+    "typescript": "6.0.3",
+    "tslib": "2.8.1"
+  }
+}

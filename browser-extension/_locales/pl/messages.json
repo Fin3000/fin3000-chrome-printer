@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Bezpiecznie wysyła utworzoną przez Chrome wersję PDF do druku do skrzynki dokumentów Fin3000."
+  },
+  "printerName": {
+    "message": "Wyślij do Fin3000"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Połącz raz z Fin3000"
+  },
+  "popupSubtitle": {
+    "message": "Miejsce docelowe drukowania Chrome"
+  },
+  "accountLabel": {
+    "message": "Konto"
+  },
+  "notConnected": {
+    "message": "Brak połączenia"
+  },
+  "connect": {
+    "message": "Połącz z Fin3000"
+  },
+  "disconnect": {
+    "message": "Rozłącz"
+  },
+  "openInbox": {
+    "message": "Otwórz skrzynkę dokumentów"
+  },
+  "statusReady": {
+    "message": "Gotowe do wysłania."
+  },
+  "statusConnecting": {
+    "message": "Otwieranie połączenia z Fin3000 …"
+  },
+  "statusWorking": {
+    "message": "Proszę czekać …"
+  },
+  "statusConnectCancelled": {
+    "message": "Połączenie zostało anulowane."
+  },
+  "statusActionFailed": {
+    "message": "Działanie nie powiodło się. Spróbuj ponownie."
+  },
+  "statusSending": {
+    "message": "Wysyłanie do Fin3000 …"
+  },
+  "statusAccepted": {
+    "message": "Dokument został bezpiecznie odebrany przez Fin3000. Trwa przetwarzanie."
+  },
+  "statusChecking": {
+    "message": "Trwa sprawdzanie odbioru. Nie wysyłaj ponownie."
+  },
+  "statusNotSent": {
+    "message": "Dokument nie został wysłany. Wydrukuj ponownie."
+  },
+  "statusBusy": {
+    "message": "Fin3000 przetwarza już dokument. Ponów drukowanie za chwilę."
+  },
+  "statusConnectFirst": {
+    "message": "Połącz raz z Fin3000, a następnie wydrukuj ponownie."
+  },
+  "statusInvalidPdf": {
+    "message": "Chrome nie przekazał prawidłowej wersji PDF do druku."
+  },
+  "statusTooLarge": {
+    "message": "Dokument jest większy niż 20 MiB i nie został wysłany."
+  },
+  "printRepresentationHelp": {
+    "message": "Chrome przesyła wersję do druku. W przypadku osadzonych danych e-faktury lub podpisów użyj przesyłania pliku albo poczty Fin3000."
+  },
+  "privacyNote": {
+    "message": "Rozszerzenie nie przechowuje trwale adresów portali, plików cookie ani danych PDF."
+  }
+}

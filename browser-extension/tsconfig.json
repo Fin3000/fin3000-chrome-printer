@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES2022", "DOM", "WebWorker"],
+    "types": ["chrome"],
+    "rootDir": "./src",
+    "noEmit": false,
+    "sourceMap": false,
+    "declaration": false
+  },
+  "include": ["src/**/*.ts"]
+}

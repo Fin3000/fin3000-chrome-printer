@@ -1,0 +1,85 @@
+{
+  "extensionName": {
+    "message": "Fin3000"
+  },
+  "extensionDescription": {
+    "message": "Безпечно надсилає створене Chrome PDF-подання для друку до вхідних документів Fin3000."
+  },
+  "printerName": {
+    "message": "Надіслати до Fin3000"
+  },
+  "printerDescriptionConnected": {
+    "message": "Fin3000 · $ACCOUNT$",
+    "placeholders": {
+      "account": {
+        "content": "$1"
+      }
+    }
+  },
+  "printerDescriptionConnect": {
+    "message": "Один раз підключити Fin3000"
+  },
+  "popupSubtitle": {
+    "message": "Місце призначення друку Chrome"
+  },
+  "accountLabel": {
+    "message": "Обліковий запис"
+  },
+  "notConnected": {
+    "message": "Не підключено"
+  },
+  "connect": {
+    "message": "Підключити Fin3000"
+  },
+  "disconnect": {
+    "message": "Від’єднати"
+  },
+  "openInbox": {
+    "message": "Відкрити вхідні документи"
+  },
+  "statusReady": {
+    "message": "Готово до надсилання."
+  },
+  "statusConnecting": {
+    "message": "Відкривається підключення до Fin3000 …"
+  },
+  "statusWorking": {
+    "message": "Зачекайте …"
+  },
+  "statusConnectCancelled": {
+    "message": "Підключення скасовано."
+  },
+  "statusActionFailed": {
+    "message": "Не вдалося виконати дію. Спробуйте ще раз."
+  },
+  "statusSending": {
+    "message": "Надсилання до Fin3000 …"
+  },
+  "statusAccepted": {
+    "message": "Fin3000 безпечно отримав документ. Триває обробка."
+  },
+  "statusChecking": {
+    "message": "Отримання перевіряється. Не надсилайте повторно."
+  },
+  "statusNotSent": {
+    "message": "Документ не надіслано. Надрукуйте ще раз."
+  },
+  "statusBusy": {
+    "message": "Fin3000 уже обробляє документ. Повторіть друк за мить."
+  },
+  "statusConnectFirst": {
+    "message": "Один раз підключіть Fin3000, а потім повторіть друк."
+  },
+  "statusInvalidPdf": {
+    "message": "Chrome не надав дійсного PDF-подання для друку."
+  },
+  "statusTooLarge": {
+    "message": "Документ перевищує 20 MiB і не був надісланий."
+  },
+  "printRepresentationHelp": {
+    "message": "Chrome передає подання для друку. Для вбудованих даних е-рахунку або підписів використовуйте завантаження файлу чи електронну пошту Fin3000."
+  },
+  "privacyNote": {
+    "message": "Розширення не зберігає постійно адреси порталів, файли cookie або PDF-дані."
+  }
+}
