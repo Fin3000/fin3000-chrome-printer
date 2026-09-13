@@ -22,7 +22,7 @@ cd /home/sascha/dev/fin3000/workingtree/frontend/chrome-print-to-fin3000
 QA_SLUG=chrome-print npm run qa
 
 # Terminal 3 — validiertes unpacked Artefakt
-cd /home/sascha/dev/fin3000/workingtree/frontend/chrome-print-to-fin3000
+cd /path/to/fin3000-chrome-printer
 QA_SLUG=chrome-print npm run extension:doctor
 QA_SLUG=chrome-print npm run extension:build:qa
 ```
