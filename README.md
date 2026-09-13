@@ -1,19 +1,37 @@
 # Fin3000 Chrome-Drucker
 
-Öffentlicher Quellcode der Chrome-Erweiterung **„An Fin3000 senden“**:
-Eine bewusst ausgelöste PDF-Druckdarstellung wird an den Belegeingang des
-verbundenen Fin3000-Kontos gesendet.
+Rechnungen und Belege direkt aus Google Chrome an [Fin3000.com](https://fin3000.com) senden.
 
-Dieses eigenständige Repository enthält nur die Erweiterung und ihre
-Build-/Testwerkzeuge, nicht die private Fin3000-Web-App oder deren Historie.
-Der bestehende Chrome-Web-Store-Artikel bleibt unverändert:
-[`nchhenonjehkpmjmekbmeciififfaaem`](https://chromewebstore.google.com/detail/nchhenonjehkpmjmekbmeciififfaaem).
-Die Quellcodeveröffentlichung legt keinen neuen Store-Artikel an und führt
-keinen Store-Upload durch.
+Mit **„An Fin3000 senden“** überträgst du Dokumente aus der Chrome-Druckvorschau
+in deinen Fin3000-Belegeingang – ohne sie vorher herunterzuladen und manuell
+hochzuladen.
+
+## So funktioniert es
+
+1. Öffne die Erweiterung und wähle **Mit Fin3000 verbinden**.
+2. Melde dich an und bestätige den Zugriff auf dein Fin3000-Konto.
+3. Öffne eine Rechnung oder einen Beleg in Chrome und wähle **Drucken**.
+4. Wähle als Druckziel **An Fin3000 senden** und bestätige den Druck.
+5. Prüfe die Übernahme im Erweiterungs-Popup und deinen Belegeingang in Fin3000.
+
+Du benötigst Google Chrome und ein Fin3000-Konto mit freigeschalteter Druckfunktion.
+
+[Zum Chrome Web Store](https://chromewebstore.google.com/detail/nchhenonjehkpmjmekbmeciififfaaem)
+· [Hilfe](https://fin3000.com/hilfe/)
+· [Datenschutz](browser-extension/PRIVACY.md)
+
+## Gut zu wissen
+
+- Gesendet wird die von Chrome erzeugte PDF-Druckdarstellung, nicht die Originaldatei.
+- Eingebettete E-Rechnungsdaten, Signaturen und Anhänge können beim Drucken verloren
+  gehen. Lade die Originaldatei direkt in Fin3000 hoch, wenn du diese Daten benötigst.
+- Die maximale Dateigröße beträgt 20 MiB.
+- Zeigt das Popup **Übernahme wird geprüft**, warte auf das Ergebnis, bevor du
+  dasselbe Dokument erneut sendest.
 
 ## Selbst bauen
 
-Voraussetzungen: Node.js 22.22.3 und `zip`.
+Voraussetzungen: Node.js 22 oder neuer und `zip`.
 
 ```bash
 git clone https://github.com/Fin3000/fin3000-chrome-printer.git
@@ -22,39 +40,32 @@ npm ci
 npm run extension:typecheck
 npm run extension:test
 npm run extension:build:prod
-npm run extension:repro:prod
 ```
 
-Das entpackte Entwicklerpaket liegt unter
-`dist/browser-extension/production/unpacked/`. Es lässt sich über
-`chrome://extensions` → Entwicklermodus → „Entpackte Erweiterung laden“ testen.
-Nicht gleichzeitig mit einer installierten Store-Version derselben ID laden.
-Zum Verbinden wird ein berechtigtes Fin3000-Konto benötigt; ein erfolgreicher
-Build allein prüft weder die Verfügbarkeit noch die Freigabe der API.
-Für normale Nutzer ist die Store-Installation vorgesehen.
+Das Entwicklerpaket liegt unter `dist/browser-extension/production/unpacked/`.
+Öffne `chrome://extensions`, schalte den Entwicklermodus ein und wähle
+**Entpackte Erweiterung laden**. Wähle anschließend diesen Ordner aus.
+Lade das Entwicklerpaket nicht gleichzeitig mit der Store-Version derselben
+Erweiterung.
 
-Die Erweiterungsversion bleibt **0.1.0**, der OAuth-Public-Client bleibt
-`fin3000-chrome-print`. Der eingecheckte Manifest-Key ist ein öffentlicher
-Identitätsschlüssel, kein Signier- oder Client-Geheimnis.
+Auch ein selbst gebautes Paket benötigt für die Anmeldung und das Senden ein
+Fin3000-Konto mit freigeschalteter Druckfunktion.
 
-## Quellcode und lokale Tests
+## Entwicklung
 
-- `browser-extension/`: unveränderter Produktcode, 26 Sprachen und Profile.
-- `scripts/`: eigenständige Build-, Prüf- und Diagnosewerkzeuge.
-- `public/images/`: die für den Build benötigten Fin3000-Icons.
+- `browser-extension/`: Erweiterung, Sprachkataloge und Build-Profile.
+- `scripts/`: Build-, Test- und Diagnosewerkzeuge.
+- `public/images/`: Icons und Grafiken.
 
-Die eingebettete [technische Dokumentation](browser-extension/README.md)
-beschreibt auch interne isolierte QA-Stacks und historische Store-Vorbereitung.
-Die dortigen Workspace-Pfade sind Beispiele aus der ursprünglichen Entwicklung,
-keine zusätzlich öffentlichen Repositories. `extension:bootstrap:prod` ist ein
-historisches Recovery-Werkzeug und für den normalen Build nicht erforderlich.
+Mit `npm run extension:repro:prod` lässt sich die Reproduzierbarkeit des
+Produktionspakets prüfen. Weitere technische Informationen findest du in der
+[Entwicklerdokumentation](browser-extension/README.md).
 
-[Datenschutz](browser-extension/PRIVACY.md) ·
-[Support](browser-extension/SUPPORT.md)
+Fehler und Verbesserungsvorschläge kannst du als
+[GitHub-Issue](https://github.com/Fin3000/fin3000-chrome-printer/issues) melden.
+Bitte veröffentliche dabei keine Rechnungen, persönlichen Daten oder Zugangsdaten.
 
 ## Lizenz
 
-Apache-2.0, siehe [LICENSE](LICENSE) und [NOTICE](NOTICE).
-Die Lizenz erteilt keine Markenrechte und keinen Zugriff auf private
-Fin3000-Dienste. Forks müssen ihre eigene OAuth-/Store-Identität verwenden;
-Produktiv-Tokens oder private Schlüssel gehören niemals ins Repository.
+[Apache-2.0](LICENSE). Hinweise zu enthaltenen Drittanbieterkomponenten stehen in
+[NOTICE](NOTICE). Die Marke Fin3000 ist nicht Teil der Lizenz.
