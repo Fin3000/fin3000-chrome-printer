@@ -1,4 +1,14 @@
+<p>
+  <a href="https://fin3000.com/">
+    <img src="docs/assets/favicon.svg" width="64" height="64" alt="Fin3000 – zur Website">
+  </a>
+</p>
+
 # Fin3000 Chrome-Drucker
+
+[Fin3000.com](https://fin3000.com/)
+· [Tools & Downloads](https://fin3000.com/tools/)
+· [Projektseite](https://fin3000.github.io/fin3000-chrome-printer/)
 
 Rechnungen und Belege direkt aus Google Chrome an [Fin3000.com](https://fin3000.com) senden.
 
