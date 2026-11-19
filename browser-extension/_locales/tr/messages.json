@@ -53,7 +53,7 @@
     "message": "İşlem başarısız oldu. Yeniden deneyin."
   },
   "statusSending": {
-    "message": "Fin3000’e gönderiliyor …"
+    "message": "Veriler Fin3000’e gönderiliyor."
   },
   "statusAccepted": {
     "message": "Belge Fin3000 tarafından güvenli biçimde alındı. İşleniyor."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "Uzantı portal adreslerini, çerezleri veya PDF verilerini kalıcı olarak saklamaz."
+  },
+  "pinHelp": {
+    "message": "Yazdırma durumunu görmek için uzantılar menüsünden Fin3000’i açın. Simgeyi oradan sabitleyebilirsiniz."
   }
 }

@@ -53,7 +53,7 @@
     "message": "De actie is mislukt. Probeer het opnieuw."
   },
   "statusSending": {
-    "message": "Wordt naar Fin3000 gestuurd …"
+    "message": "Gegevens worden naar Fin3000 verzonden."
   },
   "statusAccepted": {
     "message": "Document veilig ontvangen door Fin3000. De verwerking is bezig."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "De extensie bewaart geen portaladressen, cookies of PDF-gegevens permanent."
+  },
+  "pinHelp": {
+    "message": "Open Fin3000 in het menu Extensies voor de afdrukstatus. Daar kun je het pictogram vastzetten."
   }
 }

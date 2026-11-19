@@ -53,7 +53,7 @@
     "message": "Radnja nije uspjela. Pokušajte ponovno."
   },
   "statusSending": {
-    "message": "Šalje se u Fin3000 …"
+    "message": "Podaci se šalju u Fin3000."
   },
   "statusAccepted": {
     "message": "Fin3000 je sigurno zaprimio dokument. Obrada je u tijeku."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "Proširenje trajno ne pohranjuje adrese portala, kolačiće ni PDF podatke."
+  },
+  "pinHelp": {
+    "message": "Za status ispisa otvorite Fin3000 u izborniku proširenja. Tamo možete prikvačiti ikonu."
   }
 }

@@ -53,7 +53,7 @@
     "message": "Action failed. Please try again."
   },
   "statusSending": {
-    "message": "Sending to Fin3000 …"
+    "message": "Sending data to Fin3000."
   },
   "statusAccepted": {
     "message": "Document securely received by Fin3000. Processing is in progress."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "No portal URLs, cookies or PDF data are stored permanently in the extension."
+  },
+  "pinHelp": {
+    "message": "For print status, open Fin3000 in the Extensions menu. You can pin its icon there."
   }
 }

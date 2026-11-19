@@ -53,7 +53,7 @@
     "message": "Akcia zlyhala. Skúste to znova."
   },
   "statusSending": {
-    "message": "Odosiela sa do Fin3000 …"
+    "message": "Údaje sa odosielajú do Fin3000."
   },
   "statusAccepted": {
     "message": "Dokument bol bezpečne prijatý vo Fin3000. Prebieha spracovanie."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "Rozšírenie trvalo neukladá adresy portálov, súbory cookie ani údaje PDF."
+  },
+  "pinHelp": {
+    "message": "Stav tlače nájdete v ponuke rozšírení pod Fin3000. Ikonu tam môžete pripnúť."
   }
 }

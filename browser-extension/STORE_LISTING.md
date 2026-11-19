@@ -47,7 +47,6 @@ authoritative original.
 | `printerProvider`         | Zeigt genau das Druckziel „An Fin3000 senden“ an und empfängt den bewusst gesendeten PDF-Druckjob.  |
 | `identity`                | Einmalige Owner-Anmeldung per OAuth Authorization Code + PKCE über Chromes geschützten Redirect.    |
 | `storage`                 | Speichert Tokens, sichtbaren Kontonamen und opake Wiederanlauf-IDs; nie PDF-Bytes oder Portalwerte. |
-| `notifications`           | Meldet sichere Annahme, klaren Fehler oder einen noch zu prüfenden Ausgang.                         |
 | Exakte Fin3000-API-Origin | OAuth-Token, Principal und schmale Beleg-Intake-Routen.                                             |
 | Exakte Quarantäne-Origin  | Direkter presigned PDF-POST ohne Fin3000-Token.                                                     |
 

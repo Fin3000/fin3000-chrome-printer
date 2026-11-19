@@ -53,7 +53,7 @@
     "message": "A művelet sikertelen. Próbálja újra."
   },
   "statusSending": {
-    "message": "Küldés a Fin3000-be …"
+    "message": "Adatok küldése a Fin3000 rendszerbe."
   },
   "statusAccepted": {
     "message": "A Fin3000 biztonságosan átvette a dokumentumot. A feldolgozás folyamatban van."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "A bővítmény nem tárol tartósan portálcímeket, cookie-kat vagy PDF-adatokat."
+  },
+  "pinHelp": {
+    "message": "A nyomtatás állapotát a Bővítmények menüben, a Fin3000 alatt láthatja. Az ikont ott rögzítheti."
   }
 }

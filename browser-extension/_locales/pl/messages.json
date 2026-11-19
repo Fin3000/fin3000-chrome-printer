@@ -53,7 +53,7 @@
     "message": "Działanie nie powiodło się. Spróbuj ponownie."
   },
   "statusSending": {
-    "message": "Wysyłanie do Fin3000 …"
+    "message": "Wysyłanie danych do Fin3000."
   },
   "statusAccepted": {
     "message": "Dokument został bezpiecznie odebrany przez Fin3000. Trwa przetwarzanie."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "Rozszerzenie nie przechowuje trwale adresów portali, plików cookie ani danych PDF."
+  },
+  "pinHelp": {
+    "message": "Aby sprawdzić stan drukowania, otwórz Fin3000 w menu rozszerzeń. Możesz tam przypiąć ikonę."
   }
 }

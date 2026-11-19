@@ -53,7 +53,7 @@
     "message": "Acțiunea a eșuat. Încercați din nou."
   },
   "statusSending": {
-    "message": "Se trimite la Fin3000 …"
+    "message": "Se trimit date către Fin3000."
   },
   "statusAccepted": {
     "message": "Document primit în siguranță de Fin3000. Procesarea este în curs."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "Extensia nu stochează permanent adrese de portal, cookie-uri sau date PDF."
+  },
+  "pinHelp": {
+    "message": "Pentru starea imprimării, deschide Fin3000 din meniul de extensii. Poți fixa pictograma acolo."
   }
 }

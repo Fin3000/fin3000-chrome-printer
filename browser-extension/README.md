@@ -36,7 +36,7 @@ Entwicklermodus über **Entpackte Erweiterung laden** auswählen. Danach:
    Popup muss den richtigen Kontonamen anzeigen.
 3. `browser-extension/fixtures/hello-world.pdf` in Chrome öffnen, `Strg+P`,
    Ziel **An Fin3000 senden** und **Drucken** wählen.
-4. Erst die Meldung „Dokument sicher bei Fin3000 eingegangen“ gilt als Erfolg.
+4. Den Versandstatus findest du im Erweiterungsmenü unter Fin3000. „Dokument sicher bei Fin3000 eingegangen“ bestätigt die Annahme.
 
 Wenn die Quarantäne eine andere exakte S3-Origin liefert, wird sie nur für den
 lokalen Build gesetzt:

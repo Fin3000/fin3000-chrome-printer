@@ -53,7 +53,7 @@
     "message": "Darbība neizdevās. Mēģiniet vēlreiz."
   },
   "statusSending": {
-    "message": "Tiek sūtīts uz Fin3000 …"
+    "message": "Dati tiek sūtīti uz Fin3000."
   },
   "statusAccepted": {
     "message": "Fin3000 droši saņēma dokumentu. Notiek apstrāde."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "Paplašinājums pastāvīgi neglabā portālu adreses, sīkfailus vai PDF datus."
+  },
+  "pinHelp": {
+    "message": "Lai skatītu drukāšanas statusu, paplašinājumu izvēlnē atveriet Fin3000. Tur varat piespraust ikonu."
   }
 }

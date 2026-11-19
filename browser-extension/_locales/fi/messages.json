@@ -53,7 +53,7 @@
     "message": "Toiminto epäonnistui. Yritä uudelleen."
   },
   "statusSending": {
-    "message": "Lähetetään Fin3000:een …"
+    "message": "Tietoja lähetetään Fin3000:een."
   },
   "statusAccepted": {
     "message": "Fin3000 vastaanotti asiakirjan turvallisesti. Käsittely on käynnissä."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "Laajennus ei tallenna pysyvästi portaaliosoitteita, evästeitä eikä PDF-tietoja."
+  },
+  "pinHelp": {
+    "message": "Näet tulostuksen tilan avaamalla Fin3000:n laajennusvalikosta. Voit kiinnittää kuvakkeen siellä."
   }
 }

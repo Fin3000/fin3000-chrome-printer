@@ -10,6 +10,7 @@ import {
 import { reconcileStoredOperation, transferPrintJob } from './intake.js';
 import { connectAccount, disconnectAccount } from './oauth.js';
 import {
+  clearOperation,
   expireOperation,
   initializeStorage,
   readAuth,
@@ -20,7 +21,6 @@ import {
 } from './storage.js';
 
 const KEEPALIVE_INTERVAL_MS = 20_000;
-const SUCCESS_NOTIFICATION_ID = 'fin3000-print-accepted';
 let activePrint = false;
 let reconcilePromise: Promise<void> | undefined;
 
@@ -49,7 +49,6 @@ function messageKeyForError(error: unknown): string {
   if (['INVALID_PDF', 'EMPTY_PDF', 'INVALID_PRINTER'].includes(error.code)) {
     return 'statusInvalidPdf';
   }
-  if (error.code === 'BUSY') return 'statusBusy';
   if (error.code === 'TRANSFER_OUTCOME_UNKNOWN') return 'statusChecking';
   return 'statusNotSent';
 }
@@ -59,33 +58,17 @@ async function setBadge(status: UiStatus): Promise<void> {
   await Promise.all([
     chrome.action.setBadgeBackgroundColor({ color: value.color }),
     chrome.action.setBadgeText({ text: value.text }),
+    chrome.action.setTitle({ title: i18n('extensionName') + ' · ' + i18n(status.messageKey) }),
   ]);
 }
 
-async function notifySuccess(operationId: string): Promise<void> {
-  await chrome.notifications.create(`${SUCCESS_NOTIFICATION_ID}-${operationId}`, {
-    type: 'basic',
-    iconUrl: 'icon.png',
-    title: i18n('extensionName'),
-    message: i18n('statusAccepted'),
-    priority: 2,
-  });
-}
-
-async function notifyFailure(messageKey: string): Promise<void> {
-  await chrome.notifications.create('fin3000-print-result', {
-    type: 'basic',
-    iconUrl: 'icon.png',
-    title: i18n('extensionName'),
-    message: i18n(messageKey),
-  });
-}
-
 async function printerDescription(): Promise<string> {
-  const auth = await readAuth();
-  return auth
-    ? i18n('printerDescriptionConnected', auth.accountName)
-    : i18n('printerDescriptionConnect');
+  const [auth, status] = await Promise.all([readAuth(), readStatus()]);
+  if (!auth) return i18n('printerDescriptionConnect');
+  const account = i18n('printerDescriptionConnected', auth.accountName);
+  return status.kind === 'error' || status.kind === 'checking'
+    ? account + ' · ' + i18n(status.messageKey)
+    : account;
 }
 
 async function handlePrint(
@@ -95,7 +78,6 @@ async function handlePrint(
   const finish = createExactlyOnceCallback(resultCallback);
   if (activePrint) {
     finish('FAILED');
-    await Promise.allSettled([writeStatus('error', 'statusBusy'), notifyFailure('statusBusy')]);
     return;
   }
   activePrint = true;
@@ -103,21 +85,19 @@ async function handlePrint(
     void chrome.storage.local.get('printOperation');
   }, KEEPALIVE_INTERVAL_MS);
   try {
-    if (await readOperation()) throw new ExtensionError('BUSY');
+    if (await readOperation()) {
+      finish('FAILED');
+      return;
+    }
     const config = await loadConfig();
-    const outcome = await transferPrintJob(config, printJob);
+    await transferPrintJob(config, printJob);
     finish('OK');
-    await Promise.allSettled([
-      notifySuccess(outcome.operationId),
-      chrome.storage.local.remove('printOperation'),
-    ]);
+    // A bookkeeping failure must leave the accepted record available to recovery.
+    await clearOperation().catch(() => {});
   } catch (error) {
     const messageKey = messageKeyForError(error);
     finish(error instanceof ExtensionError ? error.printResult : 'FAILED');
-    await Promise.allSettled([
-      ...(messageKey === 'statusChecking' ? [] : [writeStatus('error', messageKey)]),
-      notifyFailure(messageKey),
-    ]);
+    if (messageKey !== 'statusChecking') await writeStatus('error', messageKey).catch(() => {});
   } finally {
     clearInterval(keepAlive);
     activePrint = false;
@@ -127,14 +107,12 @@ async function handlePrint(
 async function settleStoredOperation(
   config: Awaited<ReturnType<typeof loadConfig>>,
 ): Promise<void> {
+  if (activePrint) return;
   if (!reconcilePromise) {
     reconcilePromise = (async () => {
       const outcome = await reconcileStoredOperation(config);
       if (outcome.kind === 'accepted') {
-        await Promise.allSettled([
-          notifySuccess(outcome.operationId),
-          chrome.storage.local.remove('printOperation'),
-        ]);
+        await clearOperation();
       }
     })().finally(() => {
       reconcilePromise = undefined;

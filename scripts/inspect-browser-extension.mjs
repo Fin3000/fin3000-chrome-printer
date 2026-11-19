@@ -7,7 +7,7 @@ export async function inspectExtension(directory, expectedProfile = '') {
   const manifestPath = path.join(directory, 'manifest.json');
   const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
   const permissions = [...(manifest.permissions || [])].sort();
-  const expectedPermissions = ['identity', 'notifications', 'printerProvider', 'storage'];
+  const expectedPermissions = ['identity', 'printerProvider', 'storage'];
   if (JSON.stringify(permissions) !== JSON.stringify(expectedPermissions.sort())) {
     throw new ProductCliError(
       'HOST_PERMISSION_BROAD',

@@ -128,7 +128,6 @@ test('QA build is minimal, localized and reproducible', async () => {
   );
   assert.deepEqual([...manifest.permissions].sort(), [
     'identity',
-    'notifications',
     'printerProvider',
     'storage',
   ]);
@@ -622,14 +621,40 @@ test('definitive restart reconciliation failure clears IDs and stale UI status e
   assert.equal(mock.values.has('uiStatus'), false);
 });
 
-test('native print callback is settled before fallible status bookkeeping', async () => {
-  const background = await readFile(path.join(build.loadUnpackedPath, 'background.js'), 'utf8');
-  assert.match(background, /finish\('OK'\);\s*await Promise\.allSettled/);
-  assert.match(background, /finish\('FAILED'\);\s*await Promise\.allSettled/);
-  assert.match(
-    background,
-    /finish\(error instanceof ExtensionError \? error\.printResult : 'FAILED'\);\s*await Promise\.allSettled/,
-  );
+test('print uses the print callback and extension status even when the symbol is unpinned', async () => {
+  const mock = installChromeMock();
+  const listeners = {};
+  const event = (key) => ({addListener(handler) { listeners[key] = handler; }});
+  let title;
+  chrome.action = {
+    async setBadgeText() {},
+    async setBadgeBackgroundColor() {},
+    async setTitle(value) { title = value.title; },
+  };
+  chrome.storage.onChanged = event('change');
+  chrome.printerProvider = {
+    onPrintRequested: event('print'), onGetPrintersRequested: event('printers'),
+    onGetCapabilityRequested: event('capabilities'),
+  };
+  chrome.runtime.onMessage = event('message');
+  chrome.runtime.onInstalled = event('installed');
+  chrome.runtime.onStartup = event('startup');
+  globalThis.fetch = async () => Response.json((await loadProductProfile('qa')).profile);
+  await import(pathToFileURL(path.join(build.loadUnpackedPath, 'background.js')).href);
+  await new Promise((resolve) => setImmediate(resolve));
+  const print = () => new Promise((resolve) => listeners.print({}, resolve));
+  assert.equal(await print(), 'FAILED');
+  await new Promise((resolve) => setImmediate(resolve));
+  assert.equal(mock.values.get('uiStatus').kind, 'error');
+  const checking = {kind: 'checking', messageKey: 'statusChecking', updatedAt: Date.now()};
+  listeners.change({uiStatus: {newValue: checking}}, 'local');
+  assert.match(title, /statusChecking/);
+  await storage.writeStatus('checking', 'statusChecking');
+  await storage.writeAuth({ protocolVersion: 1, subject: 'bp_qa', accountName: 'QA',
+    accessToken: 'qa', refreshToken: 'qa', expiresAt: Date.now() + 60000 });
+  const [printer] = await new Promise((resolve) => listeners.printers(resolve));
+  assert.match(printer.description, /statusChecking/);
+  assert.equal('notifications' in chrome, false);
 });
 
 test('popup worker response cannot expose OAuth tokens', async () => {

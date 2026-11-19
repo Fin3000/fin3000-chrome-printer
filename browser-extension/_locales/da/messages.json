@@ -53,7 +53,7 @@
     "message": "Handlingen mislykkedes. Prøv igen."
   },
   "statusSending": {
-    "message": "Sender til Fin3000 …"
+    "message": "Data sendes til Fin3000."
   },
   "statusAccepted": {
     "message": "Dokumentet er modtaget sikkert af Fin3000. Behandlingen er i gang."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "Portaladresser, cookies og PDF-data gemmes ikke permanent i udvidelsen."
+  },
+  "pinHelp": {
+    "message": "Se udskriftsstatus under Fin3000 i menuen Udvidelser. Du kan fastgøre ikonet."
   }
 }

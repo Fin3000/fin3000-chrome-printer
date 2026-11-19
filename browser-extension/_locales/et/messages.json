@@ -53,7 +53,7 @@
     "message": "Toiming nurjus. Proovi uuesti."
   },
   "statusSending": {
-    "message": "Saatmine Fin3000-sse …"
+    "message": "Andmete saatmine Fin3000-sse."
   },
   "statusAccepted": {
     "message": "Fin3000 võttis dokumendi turvaliselt vastu. Töötlemine jätkub."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "Laiendus ei salvesta püsivalt portaali aadresse, küpsiseid ega PDF-andmeid."
+  },
+  "pinHelp": {
+    "message": "Printimise oleku vaatamiseks ava laienduste menüüst Fin3000. Seal saad ikooni kinnitada."
   }
 }

@@ -53,7 +53,7 @@
     "message": "Åtgärden misslyckades. Försök igen."
   },
   "statusSending": {
-    "message": "Skickar till Fin3000 …"
+    "message": "Skickar data till Fin3000."
   },
   "statusAccepted": {
     "message": "Dokumentet har tagits emot säkert av Fin3000. Bearbetning pågår."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "Tillägget lagrar inte portaladresser, cookies eller PDF-data permanent."
+  },
+  "pinHelp": {
+    "message": "Öppna Fin3000 i tilläggsmenyn för att se utskriftsstatus. Där kan du fästa ikonen."
   }
 }
