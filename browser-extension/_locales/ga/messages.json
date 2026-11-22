@@ -53,7 +53,7 @@
     "message": "Theip ar an ngníomh. Bain triail eile as."
   },
   "statusSending": {
-    "message": "Á sheoladh chuig Fin3000 …"
+    "message": "Sonraí á seoladh chuig Fin3000."
   },
   "statusAccepted": {
     "message": "Fuair Fin3000 an doiciméad go sábháilte. Tá próiseáil ar siúl."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "Ní stóráiltear seoltaí tairseacha, fianáin ná sonraí PDF go buan sa síneadh."
+  },
+  "pinHelp": {
+    "message": "Chun stádas na priontála a fheiceáil, oscail Fin3000 sa roghchlár Eisínteachtaí. Is féidir leat an deilbhín a phionnáil ann."
   }
 }

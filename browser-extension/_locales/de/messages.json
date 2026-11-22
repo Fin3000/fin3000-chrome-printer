@@ -53,7 +53,7 @@
     "message": "Aktion fehlgeschlagen. Bitte erneut versuchen."
   },
   "statusSending": {
-    "message": "Wird an Fin3000 gesendet …"
+    "message": "Daten werden an Fin3000 gesendet."
   },
   "statusAccepted": {
     "message": "Dokument sicher bei Fin3000 eingegangen. Verarbeitung läuft."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "Keine Portal-URLs, Cookies oder PDF-Daten werden dauerhaft in der Erweiterung gespeichert."
+  },
+  "pinHelp": {
+    "message": "Den Druckstatus findest du im Erweiterungsmenü unter Fin3000. Dort kannst du das Symbol anheften."
   }
 }

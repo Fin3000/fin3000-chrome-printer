@@ -53,7 +53,7 @@
     "message": "Akce se nezdařila. Zkuste to znovu."
   },
   "statusSending": {
-    "message": "Odesílá se do Fin3000 …"
+    "message": "Data se odesílají do Fin3000."
   },
   "statusAccepted": {
     "message": "Dokument byl bezpečně přijat ve Fin3000. Probíhá zpracování."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "Rozšíření trvale neukládá adresy portálů, soubory cookie ani data PDF."
+  },
+  "pinHelp": {
+    "message": "Stav tisku najdete v nabídce rozšíření pod Fin3000. Ikonu můžete připnout."
   }
 }

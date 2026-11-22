@@ -14,11 +14,11 @@ denselben Slug:
 
 ```bash
 # Terminal 1 — isoliertes Backend einschließlich Worker und festem OAuth-Client
-cd /home/sascha/dev/fin3000/workingtree/backend/chrome-print-to-fin3000
+cd /path/to/fin3000-backend
 QA_SLUG=chrome-print bash scripts/qa_server.sh --fresh --worker --clamd-stub
 
 # Terminal 2 — isoliertes Angular-Frontend für Login, 2FA und Consent
-cd /home/sascha/dev/fin3000/workingtree/frontend/chrome-print-to-fin3000
+cd /path/to/fin3000-frontend
 QA_SLUG=chrome-print npm run qa
 
 # Terminal 3 — validiertes unpacked Artefakt
@@ -36,7 +36,7 @@ Entwicklermodus über **Entpackte Erweiterung laden** auswählen. Danach:
    Popup muss den richtigen Kontonamen anzeigen.
 3. `browser-extension/fixtures/hello-world.pdf` in Chrome öffnen, `Strg+P`,
    Ziel **An Fin3000 senden** und **Drucken** wählen.
-4. Erst die Meldung „Dokument sicher bei Fin3000 eingegangen“ gilt als Erfolg.
+4. Den Versandstatus findest du im Erweiterungsmenü unter Fin3000. „Dokument sicher bei Fin3000 eingegangen“ bestätigt die Annahme.
 
 Wenn die Quarantäne eine andere exakte S3-Origin liefert, wird sie nur für den
 lokalen Build gesetzt:

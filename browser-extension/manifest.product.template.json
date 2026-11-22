@@ -6,7 +6,7 @@
   "minimum_chrome_version": "__MINIMUM_CHROME_VERSION__",
   "default_locale": "de",
   "key": "__PUBLIC_KEY__",
-  "permissions": ["identity", "notifications", "printerProvider", "storage"],
+  "permissions": ["identity", "printerProvider", "storage"],
   "host_permissions": __HOST_PERMISSIONS__,
   "background": {
     "service_worker": "background.js",

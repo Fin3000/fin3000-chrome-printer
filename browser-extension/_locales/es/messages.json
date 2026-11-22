@@ -53,7 +53,7 @@
     "message": "La acción ha fallado. Inténtalo de nuevo."
   },
   "statusSending": {
-    "message": "Enviando a Fin3000 …"
+    "message": "Enviando datos a Fin3000."
   },
   "statusAccepted": {
     "message": "Fin3000 ha recibido el documento de forma segura. El procesamiento está en curso."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "La extensión no guarda de forma permanente direcciones de portales, cookies ni datos PDF."
+  },
+  "pinHelp": {
+    "message": "Consulta el estado de impresión en Fin3000 desde el menú Extensiones. Allí puedes fijar el icono."
   }
 }

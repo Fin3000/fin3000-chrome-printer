@@ -53,7 +53,7 @@
     "message": "Azione non riuscita. Riprova."
   },
   "statusSending": {
-    "message": "Invio a Fin3000 …"
+    "message": "Invio dei dati a Fin3000."
   },
   "statusAccepted": {
     "message": "Documento ricevuto in modo sicuro da Fin3000. Elaborazione in corso."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "L’estensione non conserva in modo permanente indirizzi dei portali, cookie o dati PDF."
+  },
+  "pinHelp": {
+    "message": "Per lo stato di stampa, apri Fin3000 dal menu Estensioni. Puoi fissare l’icona da lì."
   }
 }

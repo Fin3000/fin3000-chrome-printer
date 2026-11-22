@@ -53,7 +53,7 @@
     "message": "Handlingen mislyktes. Prøv igjen."
   },
   "statusSending": {
-    "message": "Sender til Fin3000 …"
+    "message": "Sender data til Fin3000."
   },
   "statusAccepted": {
     "message": "Dokumentet er trygt mottatt av Fin3000. Behandlingen pågår."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "Utvidelsen lagrer ikke portaladresser, informasjonskapsler eller PDF-data permanent."
+  },
+  "pinHelp": {
+    "message": "Åpne Fin3000 i utvidelsesmenyen for å se utskriftsstatus. Der kan du feste ikonet."
   }
 }

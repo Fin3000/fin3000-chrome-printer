@@ -53,7 +53,7 @@
     "message": "Veiksmas nepavyko. Bandykite dar kartą."
   },
   "statusSending": {
-    "message": "Siunčiama į Fin3000 …"
+    "message": "Duomenys siunčiami į „Fin3000“."
   },
   "statusAccepted": {
     "message": "Fin3000 saugiai gavo dokumentą. Vyksta apdorojimas."
@@ -81,5 +81,8 @@
   },
   "privacyNote": {
     "message": "Plėtinys nuolat nesaugo portalų adresų, slapukų ar PDF duomenų."
+  },
+  "pinHelp": {
+    "message": "Spausdinimo būseną rasite plėtinių meniu atidarę „Fin3000“. Ten galite prisegti piktogramą."
   }
 }

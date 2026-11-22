@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+- Show printing and delivery status in the extension icon and popup. Printing no longer creates desktop notifications.
+
 - Add a German project page with Fin3000 branding, product-specific search
   metadata, installation guidance and links to Fin3000.com. Include a
   self-contained Tailwind documentation build and branded README navigation.
