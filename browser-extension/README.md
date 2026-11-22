@@ -14,11 +14,11 @@ denselben Slug:
 
 ```bash
 # Terminal 1 — isoliertes Backend einschließlich Worker und festem OAuth-Client
-cd /home/sascha/dev/fin3000/workingtree/backend/chrome-print-to-fin3000
+cd /path/to/fin3000-backend
 QA_SLUG=chrome-print bash scripts/qa_server.sh --fresh --worker --clamd-stub
 
 # Terminal 2 — isoliertes Angular-Frontend für Login, 2FA und Consent
-cd /home/sascha/dev/fin3000/workingtree/frontend/chrome-print-to-fin3000
+cd /path/to/fin3000-frontend
 QA_SLUG=chrome-print npm run qa
 
 # Terminal 3 — validiertes unpacked Artefakt
